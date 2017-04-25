@@ -1,0 +1,4 @@
+---
+ruby:
+  gen: swagger-codegen help
+  package: gem build

@@ -1,0 +1,54 @@
+{
+  "name": "swaggy-c",
+  "description": "TODO.",
+  "keywords": [
+    "code generator",
+    "swagger",
+    "api"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://github.com/cliffano/swaggy-c",
+  "author": "Cliffano Subagio <blah@cliffano.com> (http://blog.cliffano.com)",
+  "contributors": [
+    "All contributors (https://github.com/cliffano/swaggy-c/graphs/contributors)"
+  ],
+  "main": "./lib/swaggy-c",
+  "bin": {
+    "swaggy-c": "./bin/swaggy-c"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cliffano/swaggy-c.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cliffano/swaggy-c/issues"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "bagofcli": "^0.2.5",
+    "colors": "^1.1.2",
+    "jazz": "^0.0.18",
+    "yamljs": "^0.2.10"
+  },
+  "devDependencies": {
+    "buster-node": "^0.7.1",
+    "proxyquire": "^1.7.10",
+    "referee": "^1.2.0"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "'>= 6.0.0'"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2",
+      "url": "http://github.com/cliffano/swaggy-c/raw/master/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "options": [
+    { "arg": "--out-dir <outDir>", "desc": "Generated clients directory" },
+    { "arg": "--log-dir <logDir>", "desc": "Logs directory" },
+    { "arg": "--quiet", "desc": "Hide command output" }
+  ],
+  "commands": {
+    "clean": {
+      "desc": "Clean up all generated clients"
+    },
+    "ruby-gen": {
+      "desc": "Generate Ruby client"
+    },
+    "ruby-package": {
+      "desc": "Create Ruby gem package"
+    }
+  }
+}
