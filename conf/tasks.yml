@@ -1,4 +1,6 @@
 ---
+python:
+  gen: "{swaggerCodegen} generate --lang python --input-spec {apiSpec} --output {outDir}/python --config {confDir}/python.json"
 ruby:
-  gen: swagger-codegen help
+  gen: "{swaggerCodegen} generate --lang ruby --input-spec {apiSpec} --output {outDir}/ruby --config {confDir}/ruby.json"
   package: gem build
