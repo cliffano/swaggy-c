@@ -1,6 +1,83 @@
 ---
+android:
+  gen: "{swaggerCodegen} generate --lang android --input-spec {apiSpec} --output {outDir}/android --config {confDir}/android.json"
+aspnet5:
+  gen: "{swaggerCodegen} generate --lang aspnet5 --input-spec {apiSpec} --output {outDir}/aspnet5 --config {confDir}/aspnet5.json"
+async-scala:
+  gen: "{swaggerCodegen} generate --lang async-scala --input-spec {apiSpec} --output {outDir}/async-scala --config {confDir}/async-scala.json"
+csharp:
+  gen: "{swaggerCodegen} generate --lang csharp --input-spec {apiSpec} --output {outDir}/csharp --config {confDir}/csharp.json"
+dart:
+  gen: "{swaggerCodegen} generate --lang dart --input-spec {apiSpec} --output {outDir}/dart --config {confDir}/dart.json"
+flash:
+  gen: "{swaggerCodegen} generate --lang flash --input-spec {apiSpec} --output {outDir}/flash --config {confDir}/flash.json"
+python-flask:
+  gen: "{swaggerCodegen} generate --lang python-flask --input-spec {apiSpec} --output {outDir}/python-flask --config {confDir}/python-flask.json"
+go:
+  gen: "{swaggerCodegen} generate --lang go --input-spec {apiSpec} --output {outDir}/go --config {confDir}/go.json"
+java:
+  gen: "{swaggerCodegen} generate --lang java --input-spec {apiSpec} --output {outDir}/java --config {confDir}/java.json"
+jaxrs:
+  gen: "{swaggerCodegen} generate --lang jaxrs --input-spec {apiSpec} --output {outDir}/jaxrs --config {confDir}/jaxrs.json"
+jaxrs-cxf:
+  gen: "{swaggerCodegen} generate --lang jaxrs-cxf --input-spec {apiSpec} --output {outDir}/jaxrs-cxf --config {confDir}/jaxrs-cxf.json"
+jaxrs-resteasy:
+  gen: "{swaggerCodegen} generate --lang jaxrs-resteasy --input-spec {apiSpec} --output {outDir}/jaxrs-resteasy --config {confDir}/jaxrs-resteasy.json"
+inflector:
+  gen: "{swaggerCodegen} generate --lang inflector --input-spec {apiSpec} --output {outDir}/inflector --config {confDir}/inflector.json"
+javascript:
+  gen: "{swaggerCodegen} generate --lang javascript --input-spec {apiSpec} --output {outDir}/javascript --config {confDir}/javascript.json"
+javascript-closure-angular:
+  gen: "{swaggerCodegen} generate --lang javascript-closure-angular --input-spec {apiSpec} --output {outDir}/javascript-closure-angular --config {confDir}/javascript-closure-angular.json"
+jmeter:
+  gen: "{swaggerCodegen} generate --lang jmeter --input-spec {apiSpec} --output {outDir}/jmeter --config {confDir}/jmeter.json"
+nodejs-server:
+  gen: "{swaggerCodegen} generate --lang nodejs-server --input-spec {apiSpec} --output {outDir}/nodejs-server --config {confDir}/nodejs-server.json"
+objc:
+  gen: "{swaggerCodegen} generate --lang objc --input-spec {apiSpec} --output {outDir}/objc --config {confDir}/objc.json"
+perl:
+  gen: "{swaggerCodegen} generate --lang perl --input-spec {apiSpec} --output {outDir}/perl --config {confDir}/perl.json"
+php:
+  gen: "{swaggerCodegen} generate --lang php --input-spec {apiSpec} --output {outDir}/php --config {confDir}/php.json"
 python:
   gen: "{swaggerCodegen} generate --lang python --input-spec {apiSpec} --output {outDir}/python --config {confDir}/python.json"
+qt5cpp:
+  gen: "{swaggerCodegen} generate --lang qt5cpp --input-spec {apiSpec} --output {outDir}/qt5cpp --config {confDir}/qt5cpp.json"
 ruby:
   gen: "{swaggerCodegen} generate --lang ruby --input-spec {apiSpec} --output {outDir}/ruby --config {confDir}/ruby.json"
-  package: gem build
+scala:
+  gen: "{swaggerCodegen} generate --lang scala --input-spec {apiSpec} --output {outDir}/scala --config {confDir}/scala.json"
+scalatra:
+  gen: "{swaggerCodegen} generate --lang scalatra --input-spec {apiSpec} --output {outDir}/scalatra --config {confDir}/scalatra.json"
+silex-PHP:
+  gen: "{swaggerCodegen} generate --lang silex-PHP --input-spec {apiSpec} --output {outDir}/silex-PHP --config {confDir}/silex-PHP.json"
+sinatra:
+  gen: "{swaggerCodegen} generate --lang sinatra --input-spec {apiSpec} --output {outDir}/sinatra --config {confDir}/sinatra.json"
+slim:
+  gen: "{swaggerCodegen} generate --lang slim --input-spec {apiSpec} --output {outDir}/slim --config {confDir}/slim.json"
+spring-mvc:
+  gen: "{swaggerCodegen} generate --lang spring-mvc --input-spec {apiSpec} --output {outDir}/spring-mvc --config {confDir}/spring-mvc.json"
+dynamic-html:
+  gen: "{swaggerCodegen} generate --lang dynamic-html --input-spec {apiSpec} --output {outDir}/dynamic-html --config {confDir}/dynamic-html.json"
+html:
+  gen: "{swaggerCodegen} generate --lang html --input-spec {apiSpec} --output {outDir}/html --config {confDir}/html.json"
+swagger:
+  gen: "{swaggerCodegen} generate --lang swagger --input-spec {apiSpec} --output {outDir}/swagger --config {confDir}/swagger.json"
+swagger-yaml:
+  gen: "{swaggerCodegen} generate --lang swagger-yaml --input-spec {apiSpec} --output {outDir}/swagger-yaml --config {confDir}/swagger-yaml.json"
+swift:
+  gen: "{swaggerCodegen} generate --lang swift --input-spec {apiSpec} --output {outDir}/swift --config {confDir}/swift.json"
+tizen:
+  gen: "{swaggerCodegen} generate --lang tizen --input-spec {apiSpec} --output {outDir}/tizen --config {confDir}/tizen.json"
+typescript-angular:
+  gen: "{swaggerCodegen} generate --lang typescript-angular --input-spec {apiSpec} --output {outDir}/typescript-angular --config {confDir}/typescript-angular.json"
+typescript-node:
+  gen: "{swaggerCodegen} generate --lang typescript-node --input-spec {apiSpec} --output {outDir}/typescript-node --config {confDir}/typescript-node.json"
+akka-scala:
+  gen: "{swaggerCodegen} generate --lang akka-scala --input-spec {apiSpec} --output {outDir}/akka-scala --config {confDir}/akka-scala.json"
+CsharpDotNet2:
+  gen: "{swaggerCodegen} generate --lang CsharpDotNet2 --input-spec {apiSpec} --output {outDir}/CsharpDotNet2 --config {confDir}/CsharpDotNet2.json"
+clojure:
+  gen: "{swaggerCodegen} generate --lang clojure --input-spec {apiSpec} --output {outDir}/clojure --config {confDir}/clojure.json"
+haskell-servant:
+  gen: "{swaggerCodegen} generate --lang haskell-servant --input-spec {apiSpec} --output {outDir}/haskell-servant --config {confDir}/haskell-servant.json"

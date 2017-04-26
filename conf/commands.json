@@ -11,11 +11,128 @@
     "clean": {
       "desc": "Clean up all generated clients"
     },
-    "ruby-gen": {
-      "desc": "Generate Ruby client"
+    "android-gen": {
+      "desc": "Generate XYZ client"
     },
-    "ruby-package": {
-      "desc": "Create Ruby gem package"
+    "aspnet5-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "async-scala-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "csharp-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "dart-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "flash-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "python-flask-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "go-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "java-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "jaxrs-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "jaxrs-cxf-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "jaxrs-resteasy-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "inflector-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "javascript-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "javascript-closure-angular-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "jmeter-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "nodejs-server-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "objc-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "perl-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "php-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "python-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "qt5cpp-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "ruby-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "scala-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "scalatra-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "silex-PHP-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "sinatra-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "slim-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "spring-mvc-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "dynamic-html-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "html-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "swagger-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "swagger-yaml-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "swift-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "tizen-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "typescript-angular-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "typescript-node-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "akka-scala-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "CsharpDotNet2-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "clojure-gen": {
+      "desc": "Generate XYZ client"
+    },
+    "haskell-servant-gen": {
+      "desc": "Generate XYZ client"
     }
   }
 }
