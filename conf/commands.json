@@ -1,7 +1,7 @@
 {
   "options": [
     { "arg": "--api-spec <apiSpec>", "desc": "Path to OpenAPI spec file" },
-    { "arg": "--swagger-codegen <swaggerCodegen>", "desc": "Swagger Codegen command" },
+    { "arg": "--jar <jar>", "desc": "Swagger Codegen jar file" },
     { "arg": "--conf-dir <confDir>", "desc": "Swagger Codegen client configuration files directory" },
     { "arg": "--out-dir <outDir>", "desc": "Directory where generated clients will be written to" },
     { "arg": "--log-dir <logDir>", "desc": "Log files directory" },
