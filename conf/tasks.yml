@@ -27,6 +27,7 @@ inflector:
   gen: "{swaggerCodegen} generate --lang inflector --input-spec {apiSpec} --output {outDir}/inflector --config {confDir}/inflector.json"
 javascript:
   gen: "{swaggerCodegen} generate --lang javascript --input-spec {apiSpec} --output {outDir}/javascript --config {confDir}/javascript.json"
+  install: "cd {outDir}/javascript && npm link"
 javascript-closure-angular:
   gen: "{swaggerCodegen} generate --lang javascript-closure-angular --input-spec {apiSpec} --output {outDir}/javascript-closure-angular --config {confDir}/javascript-closure-angular.json"
 jmeter:

@@ -51,7 +51,10 @@
       "desc": "Generate XYZ client"
     },
     "javascript-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate JavaScript client"
+    },
+    "javascript-install": {
+      "desc": "Install generated JavaScript client"
     },
     "javascript-closure-angular-gen": {
       "desc": "Generate XYZ client"
