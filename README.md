@@ -22,7 +22,28 @@ Installation
 Usage
 -----
 
-TODO
+Build a JavaScript API client with a given spec:
+
+    swaggy-c --api-spec /path/to/spec.yaml
+
+The generated JavaScript client will then be written to `<out_dir>/<lang>/` directory.
+
+Build the client using Swagger CodeGen CLI jar:
+
+    swaggy-c --jar /path/to/swagger-codegen-cli.jar --api-spec /path/to/spec.yaml
+
+Build the client using specific configuration, output, and log directories:
+
+    swaggy-c --conf-dir /path/to/conf/ --out-dir /path/to/generated/ --log-dir /path/to/log --api-spec /path/to/spec.yaml
+
+Build the client and supress Swagger CodeGen CLI command output:
+
+    swaggy-c --quiet --api-spec /path/to/spec.yaml
+
+Configuration
+-------------
+
+Swagger CodeGen language configuration file should be placed at `<conf_dir>/<lang>.json` .
 
 Colophon
 --------
