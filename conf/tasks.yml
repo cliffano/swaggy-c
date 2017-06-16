@@ -27,7 +27,10 @@ inflector:
   gen: "{swaggerCodegen} generate --lang inflector --input-spec {apiSpec} --output {outDir} --config {confFile}"
 javascript:
   gen: "{swaggerCodegen} generate --lang javascript --input-spec {apiSpec} --output {outDir} --config {confFile}"
-  install: "cd {outDir} && npm link"
+  deps: "cd {outDir}; npm install"
+  test: "cd {outDir}; npm test"
+  install: "cd {outDir}; npm link"
+  publish: "cd {outDir}; npm publish"
 javascript-closure-angular:
   gen: "{swaggerCodegen} generate --lang javascript-closure-angular --input-spec {apiSpec} --output {outDir} --config {confFile}"
 jmeter:
@@ -46,6 +49,11 @@ qt5cpp:
   gen: "{swaggerCodegen} generate --lang qt5cpp --input-spec {apiSpec} --output {outDir} --config {confFile}"
 ruby:
   gen: "{swaggerCodegen} generate --lang ruby --input-spec {apiSpec} --output {outDir} --config {confFile}"
+  deps: "cd {outDir}; bundle install"
+  test: "cd {outDir}; rm -f *.gem; rspec spec"
+  build: "cd {outDir}; rm -f *.gem; gem build *.gemspec"
+  install: "cd {outDir}; gem install *.gem"
+  publish: "cd {outDir}; gem push *.gem"
 scala:
   gen: "{swaggerCodegen} generate --lang scala --input-spec {apiSpec} --output {outDir} --config {confFile}"
 scalatra:

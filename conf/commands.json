@@ -53,8 +53,17 @@
     "javascript-gen": {
       "desc": "Generate JavaScript client"
     },
+    "javascript-deps": {
+      "desc": "Install JavaScript dependencies"
+    },
+    "javascript-test": {
+      "desc": "Run unit tests from the generated JavaScript client"
+    },
     "javascript-install": {
       "desc": "Install generated JavaScript client"
+    },
+    "javascript-publish": {
+      "desc": "Publish package to npmjs.com"
     },
     "javascript-closure-angular-gen": {
       "desc": "Generate XYZ client"
@@ -81,7 +90,19 @@
       "desc": "Generate XYZ client"
     },
     "ruby-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Ruby client"
+    },
+    "ruby-deps": {
+      "desc": "Install Ruby dependencies"
+    },
+    "ruby-test": {
+      "desc": "Run unit tests from the generated Ruby client"
+    },
+    "ruby-install": {
+      "desc": "Install generated Ruby client"
+    },
+    "ruby-publish": {
+      "desc": "Publish package to rubygems.org"
     },
     "scala-gen": {
       "desc": "Generate XYZ client"
