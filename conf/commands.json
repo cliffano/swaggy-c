@@ -35,8 +35,23 @@
     "go-gen": {
       "desc": "Generate XYZ client"
     },
+    "java-clean": {
+      "desc": "Delete the generated Java client"
+    },
     "java-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Java client"
+    },
+    "java-deps": {
+      "desc": "Install Java dependencies"
+    },
+    "java-test": {
+      "desc": "Run unit tests from the generated Java client"
+    },
+    "java-install": {
+      "desc": "Install generated Java client"
+    },
+    "java-publish": {
+      "desc": "Publish package to distribution management (e.g. Maven Central)"
     },
     "jaxrs-gen": {
       "desc": "Generate XYZ client"
@@ -49,6 +64,9 @@
     },
     "inflector-gen": {
       "desc": "Generate XYZ client"
+    },
+    "javascript-clean": {
+      "desc": "Delete the generated JavaScript client"
     },
     "javascript-gen": {
       "desc": "Generate JavaScript client"
@@ -83,11 +101,29 @@
     "php-gen": {
       "desc": "Generate XYZ client"
     },
+    "python-clean": {
+      "desc": "Delete the generated Python client"
+    },
     "python-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Python client"
+    },
+    "python-deps": {
+      "desc": "Install Python dependencies"
+    },
+    "python-test": {
+      "desc": "Run unit tests from the generated Python client"
+    },
+    "python-install": {
+      "desc": "Install generated Python client"
+    },
+    "python-publish": {
+      "desc": "Publish package to PyPI"
     },
     "qt5cpp-gen": {
       "desc": "Generate XYZ client"
+    },
+    "ruby-clean": {
+      "desc": "Delete the generated Ruby client"
     },
     "ruby-gen": {
       "desc": "Generate Ruby client"

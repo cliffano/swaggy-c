@@ -16,7 +16,13 @@ python-flask:
 go:
   gen: "{swaggerCodegen} generate --lang go --input-spec {apiSpec} --output {outDir} --config {confFile}"
 java:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang java --input-spec {apiSpec} --output {outDir} --config {confFile}"
+  deps: "cd {outDir}; mvn dependency:resolve"
+  test: "cd {outDir}; mvn test"
+  build: "cd {outDir}; mvn package"
+  install: "cd {outDir}; mvn install"
+  publish: "cd {outDir}; mvn deploy"
 jaxrs:
   gen: "{swaggerCodegen} generate --lang jaxrs --input-spec {apiSpec} --output {outDir} --config {confFile}"
 jaxrs-cxf:
@@ -26,6 +32,7 @@ jaxrs-resteasy:
 inflector:
   gen: "{swaggerCodegen} generate --lang inflector --input-spec {apiSpec} --output {outDir} --config {confFile}"
 javascript:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang javascript --input-spec {apiSpec} --output {outDir} --config {confFile}"
   deps: "cd {outDir}; npm install"
   test: "cd {outDir}; npm test"
@@ -44,13 +51,20 @@ perl:
 php:
   gen: "{swaggerCodegen} generate --lang php --input-spec {apiSpec} --output {outDir} --config {confFile}"
 python:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang python --input-spec {apiSpec} --output {outDir} --config {confFile}"
+  deps: "cd {outDir}; pip install -r requirements.txt; pip install -r test-requirements.txt"
+  test: "cd {outDir}; python setup.py test"
+  build: "cd {outDir}; python setup.py bdist_egg"
+  install: "cd {outDir}; pip install ."
+  publish: "cd {outDir}; python setup.py sdist upload -r pypi"
 qt5cpp:
   gen: "{swaggerCodegen} generate --lang qt5cpp --input-spec {apiSpec} --output {outDir} --config {confFile}"
 ruby:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang ruby --input-spec {apiSpec} --output {outDir} --config {confFile}"
-  deps: "cd {outDir}; bundle install"
-  test: "cd {outDir}; rm -f *.gem; rspec spec"
+  deps: "cd {outDir}; rm -f *.gem; bundle install"
+  test: "cd {outDir}; rspec spec"
   build: "cd {outDir}; rm -f *.gem; gem build *.gemspec"
   install: "cd {outDir}; gem install *.gem"
   publish: "cd {outDir}; gem push *.gem"
