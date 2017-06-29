@@ -1,19 +1,27 @@
 ---
 android:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang android --input-spec {apiSpec} --output {outDir} --config {confFile}"
 aspnet5:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang aspnet5 --input-spec {apiSpec} --output {outDir} --config {confFile}"
 async-scala:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang async-scala --input-spec {apiSpec} --output {outDir} --config {confFile}"
 csharp:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang csharp --input-spec {apiSpec} --output {outDir} --config {confFile}"
 dart:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang dart --input-spec {apiSpec} --output {outDir} --config {confFile}"
 flash:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang flash --input-spec {apiSpec} --output {outDir} --config {confFile}"
 python-flask:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang python-flask --input-spec {apiSpec} --output {outDir} --config {confFile}"
 go:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang go --input-spec {apiSpec} --output {outDir} --config {confFile}"
 java:
   clean: "rm -rf {outDir}"
@@ -24,12 +32,16 @@ java:
   install: "cd {outDir}; mvn install"
   publish: "cd {outDir}; mvn deploy"
 jaxrs:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang jaxrs --input-spec {apiSpec} --output {outDir} --config {confFile}"
 jaxrs-cxf:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang jaxrs-cxf --input-spec {apiSpec} --output {outDir} --config {confFile}"
 jaxrs-resteasy:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang jaxrs-resteasy --input-spec {apiSpec} --output {outDir} --config {confFile}"
 inflector:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang inflector --input-spec {apiSpec} --output {outDir} --config {confFile}"
 javascript:
   clean: "rm -rf {outDir}"
@@ -39,16 +51,22 @@ javascript:
   install: "cd {outDir}; npm link"
   publish: "cd {outDir}; npm publish"
 javascript-closure-angular:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang javascript-closure-angular --input-spec {apiSpec} --output {outDir} --config {confFile}"
 jmeter:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang jmeter --input-spec {apiSpec} --output {outDir} --config {confFile}"
 nodejs-server:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang nodejs-server --input-spec {apiSpec} --output {outDir} --config {confFile}"
 objc:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang objc --input-spec {apiSpec} --output {outDir} --config {confFile}"
 perl:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang perl --input-spec {apiSpec} --output {outDir} --config {confFile}"
 php:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang php --input-spec {apiSpec} --output {outDir} --config {confFile}"
 python:
   clean: "rm -rf {outDir}"
@@ -59,6 +77,7 @@ python:
   install: "cd {outDir}; pip install ."
   publish: "cd {outDir}; python setup.py sdist upload -r pypi"
 qt5cpp:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang qt5cpp --input-spec {apiSpec} --output {outDir} --config {confFile}"
 ruby:
   clean: "rm -rf {outDir}"
@@ -69,38 +88,56 @@ ruby:
   install: "cd {outDir}; gem install *.gem"
   publish: "cd {outDir}; gem push *.gem"
 scala:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang scala --input-spec {apiSpec} --output {outDir} --config {confFile}"
 scalatra:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang scalatra --input-spec {apiSpec} --output {outDir} --config {confFile}"
 silex-PHP:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang silex-PHP --input-spec {apiSpec} --output {outDir} --config {confFile}"
 sinatra:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang sinatra --input-spec {apiSpec} --output {outDir} --config {confFile}"
 slim:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang slim --input-spec {apiSpec} --output {outDir} --config {confFile}"
 spring-mvc:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang spring-mvc --input-spec {apiSpec} --output {outDir} --config {confFile}"
 dynamic-html:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang dynamic-html --input-spec {apiSpec} --output {outDir} --config {confFile}"
 html:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang html --input-spec {apiSpec} --output {outDir} --config {confFile}"
 swagger:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang swagger --input-spec {apiSpec} --output {outDir} --config {confFile}"
 swagger-yaml:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang swagger-yaml --input-spec {apiSpec} --output {outDir} --config {confFile}"
 swift:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang swift --input-spec {apiSpec} --output {outDir} --config {confFile}"
 tizen:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang tizen --input-spec {apiSpec} --output {outDir} --config {confFile}"
 typescript-angular:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang typescript-angular --input-spec {apiSpec} --output {outDir} --config {confFile}"
 typescript-node:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang typescript-node --input-spec {apiSpec} --output {outDir} --config {confFile}"
 akka-scala:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang akka-scala --input-spec {apiSpec} --output {outDir} --config {confFile}"
 CsharpDotNet2:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang CsharpDotNet2 --input-spec {apiSpec} --output {outDir} --config {confFile}"
 clojure:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang clojure --input-spec {apiSpec} --output {outDir} --config {confFile}"
 haskell-servant:
+  clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang haskell-servant --input-spec {apiSpec} --output {outDir} --config {confFile}"
