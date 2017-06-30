@@ -26,15 +26,15 @@ Build a JavaScript API client with a given spec:
 
     swaggy-c --api-spec /path/to/spec.yaml
 
-The generated JavaScript client will then be written to `<out_dir>/<lang>/` directory.
+The generated JavaScript client will then be written to output directory specified in `--out-dir` flag.
 
-Build the client using Swagger CodeGen CLI jar:
+Build the client using Swagger CodeGen CLI jar, handy for using custom built jar (e.g. from master branch):
 
     swaggy-c --jar /path/to/swagger-codegen-cli.jar --api-spec /path/to/spec.yaml
 
 Build the client using specific configuration, output, and log directories:
 
-    swaggy-c --conf-dir /path/to/conf/ --out-dir /path/to/generated/ --log-dir /path/to/log --api-spec /path/to/spec.yaml
+    swaggy-c --conf-file /path/to/conf.json --out-dir /path/to/generated/ --log-dir /path/to/log --api-spec /path/to/spec.yaml
 
 Build the client and supress Swagger CodeGen CLI command output:
 
@@ -43,7 +43,7 @@ Build the client and supress Swagger CodeGen CLI command output:
 Configuration
 -------------
 
-Swagger CodeGen language configuration file should be placed at `<conf_dir>/<lang>.json` .
+The configuration file that's specified in `--conf-file` flag should be Swagger CodeGen language configuration file.
 
 Colophon
 --------
@@ -62,4 +62,3 @@ Related Projects:
 
 * [packer-swaggy-c](http://github.com/cliffano/packer-swaggy-c) - Packer builder of a Docker image that contains most languages supported by Swagger CodeGen
 * [swaggy-jenkins](http://github.com/cliffano/swaggy-jenkins) - Generated Jenkins API clients based on OpenAPI spec
-* [swaggy-jenkins-cli](http://github.com/cliffano/swaggy-jenkins-cli) - CLI utility tool for Swaggy Jenkins
