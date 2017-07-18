@@ -1,10 +1,11 @@
 {
   "name": "swaggy-c",
-  "description": "TODO.",
+  "description": "Builder for Swagger CodeGen-generated API clients in multiple languages",
   "keywords": [
     "code generator",
     "swagger",
-    "api"
+    "api",
+    "openapi"
   ],
   "version": "0.0.1",
   "homepage": "http://github.com/cliffano/swaggy-c",
