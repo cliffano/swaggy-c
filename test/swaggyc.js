@@ -25,7 +25,7 @@ buster.testCase('swaggyc - run', {
       exec: 'somejavascripttestcommand javascript',
       meta: { language: 'javascript', task: 'javascript-test', type: 'test' }
     }];
-    this.mockRunner.expects('execSeries').withArgs(commands).callsArgWith(2, null, 'someresult');;
+    this.mockRunner.expects('execSeries').withArgs(commands).callsArgWith(2, null, 'someresult');
     var params = {
       lang: 'javascript'
     };
