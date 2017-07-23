@@ -39,6 +39,35 @@ buster.testCase('swaggyc - run', {
       done();
     });
   },
+  'should parse correct language and type when language contains dash': function (done) {
+    var mockTasksDef = {
+      'python-flask': {
+        gen: 'somepythonflaskgencommand {lang}',
+        test: 'somepythonflasktestcommand {lang}'
+      }
+    };
+    this.mockYamljs.expects('load').withArgs('somedir/conf/tasks.yml').returns(mockTasksDef);
+    var commands = [{
+      exec: 'somepythonflaskgencommand python-flask',
+      meta: { language: 'python-flask', task: 'python-flask-gen', type: 'gen' }
+    }, {
+      exec: 'somepythonflasktestcommand python-flask',
+      meta: { language: 'python-flask', task: 'python-flask-test', type: 'test' }
+    }];
+    this.mockRunner.expects('execSeries').withArgs(commands).callsArgWith(2, null, 'someresult');
+    var params = {
+      lang: 'python-flask'
+    };
+    var opts = {
+      swaggycDir: 'somedir'
+    };
+    var swaggyC = new SwaggyC(params, opts);
+    swaggyC.run(['python-flask-gen', 'python-flask-test' ], function (err, result) {
+      assert.isNull(err);
+      assert.equals(result, 'someresult');
+      done();
+    });
+  },
   'should pass error when jazz encounters an error when executing commands': function (done) {
     var mockTasksDef = {
       javascript: {
