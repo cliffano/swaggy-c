@@ -11,29 +11,53 @@
     "clean": {
       "desc": "Clean up all generated clients"
     },
+    "android-clean": {
+      "desc": "Delete the generated Android client"
+    },
     "android-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Android client"
+    },
+    "aspnet5-clean": {
+      "desc": "Delete the generated ASP.NET client"
     },
     "aspnet5-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate ASP.NET client"
+    },
+    "async-scala-clean": {
+      "desc": "Delete the generated async Scala client"
     },
     "async-scala-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate async Scala client"
+    },
+    "csharp-clean": {
+      "desc": "Delete the generated C# client"
     },
     "csharp-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate C# client"
+    },
+    "dart-clean": {
+      "desc": "Delete the generated Dart client"
     },
     "dart-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Dart client"
+    },
+    "flash-clean": {
+      "desc": "Delete the generated Flash client"
     },
     "flash-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Flash client"
+    },
+    "python-flask-clean": {
+      "desc": "Delete the generated Python Flask client"
     },
     "python-flask-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Python Flask client"
+    },
+    "go-clean": {
+      "desc": "Delete the generated Go client"
     },
     "go-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Go client"
     },
     "java-clean": {
       "desc": "Delete the generated Java client"
@@ -53,17 +77,29 @@
     "java-publish": {
       "desc": "Publish package to distribution management (e.g. Maven Central)"
     },
+    "jaxrs-clean": {
+      "desc": "Delete the generated JAX-RS client"
+    },
     "jaxrs-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate JAX-RS client"
+    },
+    "jaxrs-cxf-clean": {
+      "desc": "Delete the generated Apache CXF JAX-RS client"
     },
     "jaxrs-cxf-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Apache CXF JAX-RS client"
+    },
+    "jaxrs-resteasy-clean": {
+      "desc": "Delete the generated RESTEasy JAX-RS client"
     },
     "jaxrs-resteasy-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate RESTEasy JAX-RS client"
+    },
+    "inflector-clean": {
+      "desc": "Delete the generated Inflector client"
     },
     "inflector-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Inflector client"
     },
     "javascript-clean": {
       "desc": "Delete the generated JavaScript client"
@@ -83,23 +119,41 @@
     "javascript-publish": {
       "desc": "Publish package to npmjs.com"
     },
+    "javascript-closure-angular-clean": {
+      "desc": "Delete the generated JavaScript Closure Angular client"
+    },
     "javascript-closure-angular-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate JavaScript Closure Angular client"
+    },
+    "jmeter-clean": {
+      "desc": "Delete the generated JMeter client"
     },
     "jmeter-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate JMeter client"
+    },
+    "nodejs-server-clean": {
+      "desc": "Delete the generated node.js Server client"
     },
     "nodejs-server-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate node.js Server client"
+    },
+    "objc-clean": {
+      "desc": "Delete the generated Objective-C client"
     },
     "objc-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Objective-C client"
+    },
+    "perl-clean": {
+      "desc": "Delete the generated Perl client"
     },
     "perl-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Perl client"
+    },
+    "php-clean": {
+      "desc": "Delete the generated PHP client"
     },
     "php-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate PHP client"
     },
     "python-clean": {
       "desc": "Delete the generated Python client"
@@ -119,8 +173,11 @@
     "python-publish": {
       "desc": "Publish package to PyPI"
     },
+    "qt5cpp-clean": {
+      "desc": "Delete the generated qt5 client"
+    },
     "qt5cpp-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate qt5 client"
     },
     "ruby-clean": {
       "desc": "Delete the generated Ruby client"
@@ -140,59 +197,113 @@
     "ruby-publish": {
       "desc": "Publish package to rubygems.org"
     },
+    "scala-clean": {
+      "desc": "Delete the generated Scala client"
+    },
     "scala-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Scala client"
+    },
+    "scalatra-clean": {
+      "desc": "Delete the generated Scalatra client"
     },
     "scalatra-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Scalatra client"
+    },
+    "silex-PHP-clean": {
+      "desc": "Delete the generated Silex PHP client"
     },
     "silex-PHP-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Silex PHP client"
+    },
+    "sinatra-clean": {
+      "desc": "Delete the generated Sinatra client"
     },
     "sinatra-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Sinatra client"
+    },
+    "foobar-clean": {
+      "desc": "Delete the generated foobar client"
     },
     "slim-gen": {
       "desc": "Generate XYZ client"
     },
+    "foobar-clean": {
+      "desc": "Delete the generated foobar client"
+    },
     "spring-mvc-gen": {
       "desc": "Generate XYZ client"
     },
+    "dynamic-html-clean": {
+      "desc": "Delete the generated Dynamic HTML client"
+    },
     "dynamic-html-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Dynamic HTML client"
+    },
+    "html-clean": {
+      "desc": "Delete the generated HTML client"
     },
     "html-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate HTML client"
+    },
+    "swagger-clean": {
+      "desc": "Delete the generated Swagger client"
     },
     "swagger-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Swagger client"
+    },
+    "swagger-yaml-clean": {
+      "desc": "Delete the generated Swagger YAML client"
     },
     "swagger-yaml-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Swagger YAML client"
+    },
+    "swift-clean": {
+      "desc": "Delete the generated Swift client"
     },
     "swift-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Swift client"
+    },
+    "tizen-clean": {
+      "desc": "Delete the generated Tizen client"
     },
     "tizen-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Tizen client"
+    },
+    "typescript-angular-clean": {
+      "desc": "Delete the generated TypeScript Angular client"
     },
     "typescript-angular-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate TypeScript Angular client"
+    },
+    "typescript-node-clean": {
+      "desc": "Delete the generated TypeScript node.js client"
     },
     "typescript-node-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate TypeScript node.js client"
+    },
+    "akka-scala-clean": {
+      "desc": "Delete the generated Akka Scala client"
     },
     "akka-scala-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Akka Scala client"
+    },
+    "CsharpDotNet2-clean": {
+      "desc": "Delete the generated C# .NET 2 client"
     },
     "CsharpDotNet2-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate C# .NET 2 client"
+    },
+    "clojure-clean": {
+      "desc": "Delete the generated Clojure client"
     },
     "clojure-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Clojure client"
+    },
+    "haskell-servant-clean": {
+      "desc": "Delete the generated Haskell Servant client"
     },
     "haskell-servant-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Haskell Servant client"
     }
   }
 }
