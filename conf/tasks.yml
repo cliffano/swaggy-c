@@ -102,9 +102,9 @@ sinatra:
 slim:
   clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang slim --input-spec {apiSpec} --output {outDir} --config {confFile}"
-spring-mvc:
+spring:
   clean: "rm -rf {outDir}"
-  gen: "{swaggerCodegen} generate --lang spring-mvc --input-spec {apiSpec} --output {outDir} --config {confFile}"
+  gen: "{swaggerCodegen} generate --lang spring --input-spec {apiSpec} --output {outDir} --config {confFile}"
 dynamic-html:
   clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang dynamic-html --input-spec {apiSpec} --output {outDir} --config {confFile}"
@@ -138,6 +138,6 @@ CsharpDotNet2:
 clojure:
   clean: "rm -rf {outDir}"
   gen: "{swaggerCodegen} generate --lang clojure --input-spec {apiSpec} --output {outDir} --config {confFile}"
-haskell-servant:
+haskell:
   clean: "rm -rf {outDir}"
-  gen: "{swaggerCodegen} generate --lang haskell-servant --input-spec {apiSpec} --output {outDir} --config {confFile}"
+  gen: "{swaggerCodegen} generate --lang haskell --input-spec {apiSpec} --output {outDir} --config {confFile}"

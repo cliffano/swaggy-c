@@ -221,17 +221,17 @@
     "sinatra-gen": {
       "desc": "Generate Sinatra client"
     },
-    "foobar-clean": {
-      "desc": "Delete the generated foobar client"
+    "slim-clean": {
+      "desc": "Delete the generated Slim client"
     },
     "slim-gen": {
-      "desc": "Generate XYZ client"
+      "desc": "Generate Slim client"
     },
-    "foobar-clean": {
-      "desc": "Delete the generated foobar client"
+    "spring-clean": {
+      "desc": "Delete the generated Spring client"
     },
-    "spring-mvc-gen": {
-      "desc": "Generate XYZ client"
+    "spring-gen": {
+      "desc": "Generate Spring client"
     },
     "dynamic-html-clean": {
       "desc": "Delete the generated Dynamic HTML client"
@@ -299,10 +299,10 @@
     "clojure-gen": {
       "desc": "Generate Clojure client"
     },
-    "haskell-servant-clean": {
+    "haskell-clean": {
       "desc": "Delete the generated Haskell Servant client"
     },
-    "haskell-servant-gen": {
+    "haskell-gen": {
       "desc": "Generate Haskell Servant client"
     }
   }
