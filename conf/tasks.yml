@@ -17,15 +17,6 @@ apex:
   install: "echo 'skipped...'"
   doc:     "echo 'skipped...'"
   publish: "echo 'skipped...'"
-aspnet5:
-  clean:   "rm -rf {outDir}"
-  gen:     "{swaggerCodegen} generate --lang {lang} --input-spec {apiSpec} --output {outDir} --config {confFile}"
-  deps:    "echo 'skipped...'"
-  test:    "echo 'skipped...'"
-  build:   "echo 'skipped...'"
-  install: "echo 'skipped...'"
-  doc:     "echo 'skipped...'"
-  publish: "echo 'skipped...'"
 aspnetcore:
   clean:   "rm -rf {outDir}"
   gen:     "{swaggerCodegen} generate --lang {lang} --input-spec {apiSpec} --output {outDir} --config {confFile}"
