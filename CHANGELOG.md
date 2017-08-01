@@ -1,4 +1,4 @@
-### 0.0.2
+### 0.1.0
 * Add clean commands for all languages
 * Handle language containing dash
 * Fix command format params merging
