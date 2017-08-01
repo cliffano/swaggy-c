@@ -12,7 +12,19 @@ Swaggy C
 
 Swaggy C is a builder for Swagger CodeGen-generated API clients in multiple languages.
 
-It's handy for generating multiple API clients from an OpenAPI spec in one go.
+It's handy for generating multiple API clients, along with documentations and package artifacts, from an OpenAPI spec in one go.
+
+(WIP) This builder provides convenient commands for executing the following actions:
+
+- <lang>-gen: generating API client using Swagger CodeGen
+- <lang>-deps: resolving dependencies
+- <lang>-test: running generated unit tests
+- <lang>-package: building package artifact
+- <lang>-install: installing package locally
+- <lang>-doc: generating documentation
+- <lang>-publish: publishing package to public repository
+
+Have a look at [Swaggy Jenkins](http://github.com/cliffano/swaggy-jenkins) as an example project that was built using Swaggy C.
 
 Installation
 ------------
@@ -24,21 +36,25 @@ Usage
 
 Build a JavaScript API client with a given spec:
 
-    swaggy-c --api-spec /path/to/spec.yaml
+    swaggy-c --api-spec /path/to/spec.yaml javascript
 
 The generated JavaScript client will then be written to output directory specified in `--out-dir` flag.
 
 Build the client using Swagger CodeGen CLI jar, handy for using custom built jar (e.g. from master branch):
 
-    swaggy-c --jar /path/to/swagger-codegen-cli.jar --api-spec /path/to/spec.yaml
+    swaggy-c --jar /path/to/swagger-codegen-cli.jar --api-spec /path/to/spec.yaml javascript
 
 Build the client using specific configuration, output, and log directories:
 
-    swaggy-c --conf-file /path/to/conf.json --out-dir /path/to/generated/ --log-dir /path/to/log --api-spec /path/to/spec.yaml
+    swaggy-c --conf-file /path/to/conf.json --out-dir /path/to/generated/ --log-dir /path/to/log --api-spec /path/to/spec.yaml javascript
 
 Build the client and supress Swagger CodeGen CLI command output:
 
-    swaggy-c --quiet --api-spec /path/to/spec.yaml
+    swaggy-c --quiet --api-spec /path/to/spec.yaml javascript
+
+List all available commands for all supported languages:
+
+    swaggy-c --help
 
 Configuration
 -------------
