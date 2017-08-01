@@ -61,4 +61,4 @@ Build reports:
 Related Projects:
 
 * [packer-swaggy-c](http://github.com/cliffano/packer-swaggy-c) - Packer builder of a Docker image that contains most languages supported by Swagger CodeGen
-* [swaggy-jenkins](http://github.com/cliffano/swaggy-jenkins) - Generated Jenkins API clients based on OpenAPI spec
+* [swaggy-jenkins](http://github.com/cliffano/swaggy-jenkins) - A set of Jenkins API clients in multiple languages generated from Swagger / Open API specification
