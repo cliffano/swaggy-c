@@ -1,5 +1,5 @@
-### 0.1.1
-*
+### 0.2.0
+* Add client generation for all languages supported by Swagger CodeGen as of 20170729
 
 ### 0.1.0
 * Add clean commands for all languages

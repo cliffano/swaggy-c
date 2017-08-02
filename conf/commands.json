@@ -11,6 +11,30 @@
     "clean": {
       "desc": "Clean up all generated clients"
     },
+    "akka-scala-clean": {
+      "desc": "Clean up generated akka-scala client"
+    },
+    "akka-scala-gen": {
+      "desc": "Generate akka-scala API client code"
+    },
+    "akka-scala-deps": {
+      "desc": "Download akka-scala dependencies"
+    },
+    "akka-scala-test": {
+      "desc": "Run generated akka-scala tests"
+    },
+    "akka-scala-build": {
+      "desc": "undefined 'akka-scala'"
+    },
+    "akka-scala-install": {
+      "desc": "Install akka-scala package on host machine"
+    },
+    "akka-scala-doc": {
+      "desc": "Generate documentation for akka-scala API client"
+    },
+    "akka-scala-publish": {
+      "desc": "Publish akka-scala package"
+    },
     "android-clean": {
       "desc": "Clean up generated android client"
     },
@@ -34,6 +58,30 @@
     },
     "android-publish": {
       "desc": "Publish android package"
+    },
+    "apache2-clean": {
+      "desc": "Clean up generated apache2 client"
+    },
+    "apache2-gen": {
+      "desc": "Generate apache2 API client code"
+    },
+    "apache2-deps": {
+      "desc": "Download apache2 dependencies"
+    },
+    "apache2-test": {
+      "desc": "Run generated apache2 tests"
+    },
+    "apache2-build": {
+      "desc": "undefined 'apache2'"
+    },
+    "apache2-install": {
+      "desc": "Install apache2 package on host machine"
+    },
+    "apache2-doc": {
+      "desc": "Generate documentation for apache2 API client"
+    },
+    "apache2-publish": {
+      "desc": "Publish apache2 package"
     },
     "apex-clean": {
       "desc": "Clean up generated apex client"
@@ -83,6 +131,30 @@
     "aspnetcore-publish": {
       "desc": "Publish aspnetcore package"
     },
+    "async-scala-clean": {
+      "desc": "Clean up generated async-scala client"
+    },
+    "async-scala-gen": {
+      "desc": "Generate async-scala API client code"
+    },
+    "async-scala-deps": {
+      "desc": "Download async-scala dependencies"
+    },
+    "async-scala-test": {
+      "desc": "Run generated async-scala tests"
+    },
+    "async-scala-build": {
+      "desc": "undefined 'async-scala'"
+    },
+    "async-scala-install": {
+      "desc": "Install async-scala package on host machine"
+    },
+    "async-scala-doc": {
+      "desc": "Generate documentation for async-scala API client"
+    },
+    "async-scala-publish": {
+      "desc": "Publish async-scala package"
+    },
     "bash-clean": {
       "desc": "Clean up generated bash client"
     },
@@ -130,30 +202,6 @@
     },
     "clojure-publish": {
       "desc": "Publish clojure package"
-    },
-    "cwiki-clean": {
-      "desc": "Clean up generated cwiki client"
-    },
-    "cwiki-gen": {
-      "desc": "Generate cwiki API client code"
-    },
-    "cwiki-deps": {
-      "desc": "Download cwiki dependencies"
-    },
-    "cwiki-test": {
-      "desc": "Run generated cwiki tests"
-    },
-    "cwiki-build": {
-      "desc": "undefined 'cwiki'"
-    },
-    "cwiki-install": {
-      "desc": "Install cwiki package on host machine"
-    },
-    "cwiki-doc": {
-      "desc": "Generate documentation for cwiki API client"
-    },
-    "cwiki-publish": {
-      "desc": "Publish cwiki package"
     },
     "cpprest-clean": {
       "desc": "Clean up generated cpprest client"
@@ -227,6 +275,30 @@
     "CsharpDotNet2-publish": {
       "desc": "Publish CsharpDotNet2 package"
     },
+    "cwiki-clean": {
+      "desc": "Clean up generated cwiki client"
+    },
+    "cwiki-gen": {
+      "desc": "Generate cwiki API client code"
+    },
+    "cwiki-deps": {
+      "desc": "Download cwiki dependencies"
+    },
+    "cwiki-test": {
+      "desc": "Run generated cwiki tests"
+    },
+    "cwiki-build": {
+      "desc": "undefined 'cwiki'"
+    },
+    "cwiki-install": {
+      "desc": "Install cwiki package on host machine"
+    },
+    "cwiki-doc": {
+      "desc": "Generate documentation for cwiki API client"
+    },
+    "cwiki-publish": {
+      "desc": "Publish cwiki package"
+    },
     "dart-clean": {
       "desc": "Clean up generated dart client"
     },
@@ -250,6 +322,54 @@
     },
     "dart-publish": {
       "desc": "Publish dart package"
+    },
+    "dynamic-html-clean": {
+      "desc": "Clean up generated dynamic-html client"
+    },
+    "dynamic-html-gen": {
+      "desc": "Generate dynamic-html API client code"
+    },
+    "dynamic-html-deps": {
+      "desc": "Download dynamic-html dependencies"
+    },
+    "dynamic-html-test": {
+      "desc": "Run generated dynamic-html tests"
+    },
+    "dynamic-html-build": {
+      "desc": "undefined 'dynamic-html'"
+    },
+    "dynamic-html-install": {
+      "desc": "Install dynamic-html package on host machine"
+    },
+    "dynamic-html-doc": {
+      "desc": "Generate documentation for dynamic-html API client"
+    },
+    "dynamic-html-publish": {
+      "desc": "Publish dynamic-html package"
+    },
+    "eiffel-clean": {
+      "desc": "Clean up generated eiffel client"
+    },
+    "eiffel-gen": {
+      "desc": "Generate eiffel API client code"
+    },
+    "eiffel-deps": {
+      "desc": "Download eiffel dependencies"
+    },
+    "eiffel-test": {
+      "desc": "Run generated eiffel tests"
+    },
+    "eiffel-build": {
+      "desc": "undefined 'eiffel'"
+    },
+    "eiffel-install": {
+      "desc": "Install eiffel package on host machine"
+    },
+    "eiffel-doc": {
+      "desc": "Generate documentation for eiffel API client"
+    },
+    "eiffel-publish": {
+      "desc": "Publish eiffel package"
     },
     "elixir-clean": {
       "desc": "Clean up generated elixir client"
@@ -298,6 +418,30 @@
     },
     "erlang-server-publish": {
       "desc": "Publish erlang-server package"
+    },
+    "finch-clean": {
+      "desc": "Clean up generated finch client"
+    },
+    "finch-gen": {
+      "desc": "Generate finch API client code"
+    },
+    "finch-deps": {
+      "desc": "Download finch dependencies"
+    },
+    "finch-test": {
+      "desc": "Run generated finch tests"
+    },
+    "finch-build": {
+      "desc": "undefined 'finch'"
+    },
+    "finch-install": {
+      "desc": "Install finch package on host machine"
+    },
+    "finch-doc": {
+      "desc": "Generate documentation for finch API client"
+    },
+    "finch-publish": {
+      "desc": "Publish finch package"
     },
     "flash-clean": {
       "desc": "Clean up generated flash client"
@@ -419,30 +563,6 @@
     "haskell-publish": {
       "desc": "Publish haskell package"
     },
-    "dynamic-html-clean": {
-      "desc": "Clean up generated dynamic-html client"
-    },
-    "dynamic-html-gen": {
-      "desc": "Generate dynamic-html API client code"
-    },
-    "dynamic-html-deps": {
-      "desc": "Download dynamic-html dependencies"
-    },
-    "dynamic-html-test": {
-      "desc": "Run generated dynamic-html tests"
-    },
-    "dynamic-html-build": {
-      "desc": "undefined 'dynamic-html'"
-    },
-    "dynamic-html-install": {
-      "desc": "Install dynamic-html package on host machine"
-    },
-    "dynamic-html-doc": {
-      "desc": "Generate documentation for dynamic-html API client"
-    },
-    "dynamic-html-publish": {
-      "desc": "Publish dynamic-html package"
-    },
     "html-clean": {
       "desc": "Clean up generated html client"
     },
@@ -563,6 +683,75 @@
     "java-play-framework-publish": {
       "desc": "Publish java-play-framework package"
     },
+    "java-vertx-clean": {
+      "desc": "Clean up generated java-vertx client"
+    },
+    "java-vertx-gen": {
+      "desc": "Generate java-vertx API client code"
+    },
+    "java-vertx-deps": {
+      "desc": "Download java-vertx dependencies"
+    },
+    "java-vertx-test": {
+      "desc": "Run generated java-vertx tests"
+    },
+    "java-vertx-build": {
+      "desc": "undefined 'java-vertx'"
+    },
+    "java-vertx-install": {
+      "desc": "Install java-vertx package on host machine"
+    },
+    "java-vertx-doc": {
+      "desc": "Generate documentation for java-vertx API client"
+    },
+    "java-vertx-publish": {
+      "desc": "Publish java-vertx package"
+    },
+    "javascript-clean": {
+      "desc": "Clean up generated javascript client"
+    },
+    "javascript-gen": {
+      "desc": "Generate javascript API client code"
+    },
+    "javascript-deps": {
+      "desc": "Download javascript dependencies"
+    },
+    "javascript-test": {
+      "desc": "Run generated javascript tests"
+    },
+    "javascript-install": {
+      "desc": "Install javascript package on host machine"
+    },
+    "javascript-doc": {
+      "desc": "Generate documentation for javascript API client"
+    },
+    "javascript-publish": {
+      "desc": "Publish javascript package"
+    },
+    "javascript-closure-angular-clean": {
+      "desc": "Clean up generated javascript-closure-angular client"
+    },
+    "javascript-closure-angular-gen": {
+      "desc": "Generate javascript-closure-angular API client code"
+    },
+    "javascript-closure-angular-deps": {
+      "desc": "Download javascript-closure-angular dependencies"
+    },
+    "javascript-closure-angular-test": {
+      "desc": "Run generated javascript-closure-angular tests"
+    },
+    "javascript-closure-angular-build": {
+      "desc": "undefined 'javascript-closure-angular'"
+    },
+    "javascript-closure-angular-install": {
+      "desc": "Install javascript-closure-angular package on host machine"
+    },
+    "javascript-closure-angular-doc": {
+      "desc": "Generate documentation for javascript-closure-angular API client"
+    },
+    "javascript-closure-angular-publish": {
+      "desc": "Publish javascript-closure-angular package"
+    },
     "jaxrs-clean": {
       "desc": "Clean up generated jaxrs client"
     },
@@ -635,6 +824,30 @@
     "jaxrs-cxf-cdi-publish": {
       "desc": "Publish jaxrs-cxf-cdi package"
     },
+    "jaxrs-cxf-client-clean": {
+      "desc": "Clean up generated jaxrs-cxf-client client"
+    },
+    "jaxrs-cxf-client-gen": {
+      "desc": "Generate jaxrs-cxf-client API client code"
+    },
+    "jaxrs-cxf-client-deps": {
+      "desc": "Download jaxrs-cxf-client dependencies"
+    },
+    "jaxrs-cxf-client-test": {
+      "desc": "Run generated jaxrs-cxf-client tests"
+    },
+    "jaxrs-cxf-client-build": {
+      "desc": "undefined 'jaxrs-cxf-client'"
+    },
+    "jaxrs-cxf-client-install": {
+      "desc": "Install jaxrs-cxf-client package on host machine"
+    },
+    "jaxrs-cxf-client-doc": {
+      "desc": "Generate documentation for jaxrs-cxf-client API client"
+    },
+    "jaxrs-cxf-client-publish": {
+      "desc": "Publish jaxrs-cxf-client package"
+    },
     "jaxrs-resteasy-clean": {
       "desc": "Clean up generated jaxrs-resteasy client"
     },
@@ -683,50 +896,29 @@
     "jaxrs-resteasy-eap-publish": {
       "desc": "Publish jaxrs-resteasy-eap package"
     },
-    "javascript-clean": {
-      "desc": "Clean up generated javascript client"
+    "jaxrs-spec-clean": {
+      "desc": "Clean up generated jaxrs-spec client"
     },
-    "javascript-gen": {
-      "desc": "Generate javascript API client code"
+    "jaxrs-spec-gen": {
+      "desc": "Generate jaxrs-spec API client code"
     },
-    "javascript-deps": {
-      "desc": "Download javascript dependencies"
+    "jaxrs-spec-deps": {
+      "desc": "Download jaxrs-spec dependencies"
     },
-    "javascript-test": {
-      "desc": "Run generated javascript tests"
+    "jaxrs-spec-test": {
+      "desc": "Run generated jaxrs-spec tests"
     },
-    "javascript-install": {
-      "desc": "Install javascript package on host machine"
+    "jaxrs-spec-build": {
+      "desc": "undefined 'jaxrs-spec'"
     },
-    "javascript-doc": {
-      "desc": "Generate documentation for javascript API client"
+    "jaxrs-spec-install": {
+      "desc": "Install jaxrs-spec package on host machine"
     },
-    "javascript-publish": {
-      "desc": "Publish javascript package"
+    "jaxrs-spec-doc": {
+      "desc": "Generate documentation for jaxrs-spec API client"
     },
-    "javascript-closure-angular-clean": {
-      "desc": "Clean up generated javascript-closure-angular client"
-    },
-    "javascript-closure-angular-gen": {
-      "desc": "Generate javascript-closure-angular API client code"
-    },
-    "javascript-closure-angular-deps": {
-      "desc": "Download javascript-closure-angular dependencies"
-    },
-    "javascript-closure-angular-test": {
-      "desc": "Run generated javascript-closure-angular tests"
-    },
-    "javascript-closure-angular-build": {
-      "desc": "undefined 'javascript-closure-angular'"
-    },
-    "javascript-closure-angular-install": {
-      "desc": "Install javascript-closure-angular package on host machine"
-    },
-    "javascript-closure-angular-doc": {
-      "desc": "Generate documentation for javascript-closure-angular API client"
-    },
-    "javascript-closure-angular-publish": {
-      "desc": "Publish javascript-closure-angular package"
+    "jaxrs-spec-publish": {
+      "desc": "Publish jaxrs-spec package"
     },
     "jmeter-clean": {
       "desc": "Clean up generated jmeter client"
@@ -799,6 +991,30 @@
     },
     "lumen-publish": {
       "desc": "Publish lumen package"
+    },
+    "msf4j-clean": {
+      "desc": "Clean up generated msf4j client"
+    },
+    "msf4j-gen": {
+      "desc": "Generate msf4j API client code"
+    },
+    "msf4j-deps": {
+      "desc": "Download msf4j dependencies"
+    },
+    "msf4j-test": {
+      "desc": "Run generated msf4j tests"
+    },
+    "msf4j-build": {
+      "desc": "undefined 'msf4j'"
+    },
+    "msf4j-install": {
+      "desc": "Install msf4j package on host machine"
+    },
+    "msf4j-doc": {
+      "desc": "Generate documentation for msf4j API client"
+    },
+    "msf4j-publish": {
+      "desc": "Publish msf4j package"
     },
     "nancyfx-clean": {
       "desc": "Clean up generated nancyfx client"
@@ -920,29 +1136,77 @@
     "php-publish": {
       "desc": "Publish php package"
     },
-    "silex-PHP-clean": {
-      "desc": "Clean up generated silex-PHP client"
+    "php-symfony-clean": {
+      "desc": "Clean up generated php-symfony client"
     },
-    "silex-PHP-gen": {
-      "desc": "Generate silex-PHP API client code"
+    "php-symfony-gen": {
+      "desc": "Generate php-symfony API client code"
     },
-    "silex-PHP-deps": {
-      "desc": "Download silex-PHP dependencies"
+    "php-symfony-deps": {
+      "desc": "Download php-symfony dependencies"
     },
-    "silex-PHP-test": {
-      "desc": "Run generated silex-PHP tests"
+    "php-symfony-test": {
+      "desc": "Run generated php-symfony tests"
     },
-    "silex-PHP-build": {
-      "desc": "undefined 'silex-PHP'"
+    "php-symfony-build": {
+      "desc": "undefined 'php-symfony'"
     },
-    "silex-PHP-install": {
-      "desc": "Install silex-PHP package on host machine"
+    "php-symfony-install": {
+      "desc": "Install php-symfony package on host machine"
     },
-    "silex-PHP-doc": {
-      "desc": "Generate documentation for silex-PHP API client"
+    "php-symfony-doc": {
+      "desc": "Generate documentation for php-symfony API client"
     },
-    "silex-PHP-publish": {
-      "desc": "Publish silex-PHP package"
+    "php-symfony-publish": {
+      "desc": "Publish php-symfony package"
+    },
+    "pistache-server-clean": {
+      "desc": "Clean up generated pistache-server client"
+    },
+    "pistache-server-gen": {
+      "desc": "Generate pistache-server API client code"
+    },
+    "pistache-server-deps": {
+      "desc": "Download pistache-server dependencies"
+    },
+    "pistache-server-test": {
+      "desc": "Run generated pistache-server tests"
+    },
+    "pistache-server-build": {
+      "desc": "undefined 'pistache-server'"
+    },
+    "pistache-server-install": {
+      "desc": "Install pistache-server package on host machine"
+    },
+    "pistache-server-doc": {
+      "desc": "Generate documentation for pistache-server API client"
+    },
+    "pistache-server-publish": {
+      "desc": "Publish pistache-server package"
+    },
+    "powershell-clean": {
+      "desc": "Clean up generated powershell client"
+    },
+    "powershell-gen": {
+      "desc": "Generate powershell API client code"
+    },
+    "powershell-deps": {
+      "desc": "Download powershell dependencies"
+    },
+    "powershell-test": {
+      "desc": "Run generated powershell tests"
+    },
+    "powershell-build": {
+      "desc": "undefined 'powershell'"
+    },
+    "powershell-install": {
+      "desc": "Install powershell package on host machine"
+    },
+    "powershell-doc": {
+      "desc": "Generate documentation for powershell API client"
+    },
+    "powershell-publish": {
+      "desc": "Publish powershell package"
     },
     "python-clean": {
       "desc": "Clean up generated python client"
@@ -1016,6 +1280,54 @@
     "qt5cpp-publish": {
       "desc": "Publish qt5cpp package"
     },
+    "rails5-clean": {
+      "desc": "Clean up generated rails5 client"
+    },
+    "rails5-gen": {
+      "desc": "Generate rails5 API client code"
+    },
+    "rails5-deps": {
+      "desc": "Download rails5 dependencies"
+    },
+    "rails5-test": {
+      "desc": "Run generated rails5 tests"
+    },
+    "rails5-build": {
+      "desc": "undefined 'rails5'"
+    },
+    "rails5-install": {
+      "desc": "Install rails5 package on host machine"
+    },
+    "rails5-doc": {
+      "desc": "Generate documentation for rails5 API client"
+    },
+    "rails5-publish": {
+      "desc": "Publish rails5 package"
+    },
+    "restbed-clean": {
+      "desc": "Clean up generated restbed client"
+    },
+    "restbed-gen": {
+      "desc": "Generate restbed API client code"
+    },
+    "restbed-deps": {
+      "desc": "Download restbed dependencies"
+    },
+    "restbed-test": {
+      "desc": "Run generated restbed tests"
+    },
+    "restbed-build": {
+      "desc": "undefined 'restbed'"
+    },
+    "restbed-install": {
+      "desc": "Install restbed package on host machine"
+    },
+    "restbed-doc": {
+      "desc": "Generate documentation for restbed API client"
+    },
+    "restbed-publish": {
+      "desc": "Publish restbed package"
+    },
     "ruby-clean": {
       "desc": "Clean up generated ruby client"
     },
@@ -1064,54 +1376,6 @@
     "scala-publish": {
       "desc": "Publish scala package"
     },
-    "akka-scala-clean": {
-      "desc": "Clean up generated akka-scala client"
-    },
-    "akka-scala-gen": {
-      "desc": "Generate akka-scala API client code"
-    },
-    "akka-scala-deps": {
-      "desc": "Download akka-scala dependencies"
-    },
-    "akka-scala-test": {
-      "desc": "Run generated akka-scala tests"
-    },
-    "akka-scala-build": {
-      "desc": "undefined 'akka-scala'"
-    },
-    "akka-scala-install": {
-      "desc": "Install akka-scala package on host machine"
-    },
-    "akka-scala-doc": {
-      "desc": "Generate documentation for akka-scala API client"
-    },
-    "akka-scala-publish": {
-      "desc": "Publish akka-scala package"
-    },
-    "async-scala-clean": {
-      "desc": "Clean up generated async-scala client"
-    },
-    "async-scala-gen": {
-      "desc": "Generate async-scala API client code"
-    },
-    "async-scala-deps": {
-      "desc": "Download async-scala dependencies"
-    },
-    "async-scala-test": {
-      "desc": "Run generated async-scala tests"
-    },
-    "async-scala-build": {
-      "desc": "undefined 'async-scala'"
-    },
-    "async-scala-install": {
-      "desc": "Install async-scala package on host machine"
-    },
-    "async-scala-doc": {
-      "desc": "Generate documentation for async-scala API client"
-    },
-    "async-scala-publish": {
-      "desc": "Publish async-scala package"
-    },
     "scalatra-clean": {
       "desc": "Clean up generated scalatra client"
     },
@@ -1135,6 +1399,30 @@
     },
     "scalatra-publish": {
       "desc": "Publish scalatra package"
+    },
+    "silex-PHP-clean": {
+      "desc": "Clean up generated silex-PHP client"
+    },
+    "silex-PHP-gen": {
+      "desc": "Generate silex-PHP API client code"
+    },
+    "silex-PHP-deps": {
+      "desc": "Download silex-PHP dependencies"
+    },
+    "silex-PHP-test": {
+      "desc": "Run generated silex-PHP tests"
+    },
+    "silex-PHP-build": {
+      "desc": "undefined 'silex-PHP'"
+    },
+    "silex-PHP-install": {
+      "desc": "Install silex-PHP package on host machine"
+    },
+    "silex-PHP-doc": {
+      "desc": "Generate documentation for silex-PHP API client"
+    },
+    "silex-PHP-publish": {
+      "desc": "Publish silex-PHP package"
     },
     "sinatra-clean": {
       "desc": "Clean up generated sinatra client"
@@ -1304,6 +1592,30 @@
     "swift3-publish": {
       "desc": "Publish swift3 package"
     },
+    "swift4-clean": {
+      "desc": "Clean up generated swift4 client"
+    },
+    "swift4-gen": {
+      "desc": "Generate swift4 API client code"
+    },
+    "swift4-deps": {
+      "desc": "Download swift4 dependencies"
+    },
+    "swift4-test": {
+      "desc": "Run generated swift4 tests"
+    },
+    "swift4-build": {
+      "desc": "undefined 'swift4'"
+    },
+    "swift4-install": {
+      "desc": "Install swift4 package on host machine"
+    },
+    "swift4-doc": {
+      "desc": "Generate documentation for swift4 API client"
+    },
+    "swift4-publish": {
+      "desc": "Publish swift4 package"
+    },
     "tizen-clean": {
       "desc": "Clean up generated tizen client"
     },
@@ -1352,29 +1664,53 @@
     "typescript-angular-publish": {
       "desc": "Publish typescript-angular package"
     },
-    "typescript-angular2-clean": {
-      "desc": "Clean up generated typescript-angular2 client"
+    "typescript-angularjs-clean": {
+      "desc": "Clean up generated typescript-angularjs client"
     },
-    "typescript-angular2-gen": {
-      "desc": "Generate typescript-angular2 API client code"
+    "typescript-angularjs-gen": {
+      "desc": "Generate typescript-angularjs API client code"
     },
-    "typescript-angular2-deps": {
-      "desc": "Download typescript-angular2 dependencies"
+    "typescript-angularjs-deps": {
+      "desc": "Download typescript-angularjs dependencies"
     },
-    "typescript-angular2-test": {
-      "desc": "Run generated typescript-angular2 tests"
+    "typescript-angularjs-test": {
+      "desc": "Run generated typescript-angularjs tests"
     },
-    "typescript-angular2-build": {
-      "desc": "undefined 'typescript-angular2'"
+    "typescript-angularjs-build": {
+      "desc": "undefined 'typescript-angularjs'"
     },
-    "typescript-angular2-install": {
-      "desc": "Install typescript-angular2 package on host machine"
+    "typescript-angularjs-install": {
+      "desc": "Install typescript-angularjs package on host machine"
     },
-    "typescript-angular2-doc": {
-      "desc": "Generate documentation for typescript-angular2 API client"
+    "typescript-angularjs-doc": {
+      "desc": "Generate documentation for typescript-angularjs API client"
     },
-    "typescript-angular2-publish": {
-      "desc": "Publish typescript-angular2 package"
+    "typescript-angularjs-publish": {
+      "desc": "Publish typescript-angularjs package"
+    },
+    "typescript-aurelia-clean": {
+      "desc": "Clean up generated typescript-aurelia client"
+    },
+    "typescript-aurelia-gen": {
+      "desc": "Generate typescript-aurelia API client code"
+    },
+    "typescript-aurelia-deps": {
+      "desc": "Download typescript-aurelia dependencies"
+    },
+    "typescript-aurelia-test": {
+      "desc": "Run generated typescript-aurelia tests"
+    },
+    "typescript-aurelia-build": {
+      "desc": "undefined 'typescript-aurelia'"
+    },
+    "typescript-aurelia-install": {
+      "desc": "Install typescript-aurelia package on host machine"
+    },
+    "typescript-aurelia-doc": {
+      "desc": "Generate documentation for typescript-aurelia API client"
+    },
+    "typescript-aurelia-publish": {
+      "desc": "Publish typescript-aurelia package"
     },
     "typescript-fetch-clean": {
       "desc": "Clean up generated typescript-fetch client"
