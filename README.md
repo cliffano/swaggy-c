@@ -61,6 +61,14 @@ Configuration
 
 The configuration file that's specified in `--conf-file` flag should be Swagger CodeGen language configuration file.
 
+Adding new language
+-------------------
+
+As Swagger CodeGen keeps evolving, new languages will be added throughout time. To add a new language support to Swaggy C:
+
+1. Update `conf/tasks.yml` with the new language and its commands for performing clean, gen, deps, test, package, install, doc, publish tasks
+2. Update `conf/commands.json` with the new language's commands
+
 Colophon
 --------
 
