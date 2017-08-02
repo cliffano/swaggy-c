@@ -16,13 +16,13 @@ It's handy for generating multiple API clients, along with documentations and pa
 
 (WIP) This builder provides convenient commands for executing the following actions:
 
-- <lang>-gen: generating API client using Swagger CodeGen
-- <lang>-deps: resolving dependencies
-- <lang>-test: running generated unit tests
-- <lang>-package: building package artifact
-- <lang>-install: installing package locally
-- <lang>-doc: generating documentation
-- <lang>-publish: publishing package to public repository
+- {lang}-gen: generating API client using Swagger CodeGen
+- {lang}-deps: resolving dependencies
+- {lang}-test: running generated unit tests
+- {lang}-package: building package artifact
+- {lang}-install: installing package locally
+- {lang}-doc: generating documentation
+- {lang}-publish: publishing package to public repository
 
 Have a look at [Swaggy Jenkins](http://github.com/cliffano/swaggy-jenkins) as an example project that was built using Swaggy C.
 
