@@ -455,7 +455,7 @@ python:
   test:    "cd {outDir}; python setup.py test"
   build:   "cd {outDir}; python setup.py bdist_egg"
   install: "cd {outDir}; pip install ."
-  echo:    "echo 'skipped...'"
+  doc:     "echo 'skipped...'"
   publish: "cd {outDir}; python setup.py sdist upload -r pypi"
 python-flask:
   clean:   "rm -rf {outDir}"
