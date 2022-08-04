@@ -1,7 +1,0 @@
-- params:
-    swaggyc: ../../../../../bin/swaggy-c
-
-- description: Inexisting task should display error
-  command: '{swaggyc} someinexistingtask'
-  exitcode: 1
-  output: 'Unknown command: someinexistingtask, use --help for more info'

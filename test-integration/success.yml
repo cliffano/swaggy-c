@@ -1,7 +1,0 @@
-- params:
-    swaggyc: ../../../../../bin/swaggy-c
-
-- description: Command help should display help information
-  command: '{swaggyc} --help'
-  exitcode: 0
-  output: 'Usage: swaggy-c'
