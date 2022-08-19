@@ -1,7 +1,7 @@
 ci: lint test
 
 lint:
-	checkmake src/Makefile-swaggy-c
+	checkmake src/Makefile-swaggy-c Makefile
 
 test:
 	echo "todo"
@@ -17,4 +17,4 @@ release-patch:
 
 release: release-minor
 
-.PHONY: lint test release-major release-minor release-patch
+.PHONY: all ci lint test release-major release-minor release-patch

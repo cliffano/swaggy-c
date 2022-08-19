@@ -213,4 +213,4 @@ doc-publish:
 
 ################################################################
 
-.PHONY: ci stage clean deps init-spec init-langs-config generate generate-all generate-primary build-javascript build-python build-ruby test-javascript test-python test-ruby publish-javascript publish-python publish-ruby doc doc-latest doc-version doc-publish
+.PHONY: all test ci stage clean deps init-spec init-langs-config generate generate-all generate-primary build-javascript build-python build-ruby test-javascript test-python test-ruby publish-javascript publish-python publish-ruby doc doc-latest doc-version doc-publish
