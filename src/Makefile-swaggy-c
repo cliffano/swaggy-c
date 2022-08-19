@@ -38,6 +38,11 @@ SPEC_URI=$(shell yq .spec_uri swaggy-c.yml)
 # APP_VERSION is version of the application using Swaggy C
 APP_VERSION ?= $(shell yq .version swaggy-c.yml)
 
+# Contact details to be amended to the OpenAPI specification .info.contact.* properties
+CONTACT_NAME ?= $(shell yq .contact.name swaggy-c.yml)
+CONTACT_URL ?= $(shell yq .contact.url swaggy-c.yml)
+CONTACT_EMAIL ?= $(shell yq .contact.email swaggy-c.yml)
+
 # APP_BASE_DIR is the absolute path where the application base directory is located, for example:
 # - MacOS user workspace directory: /Users/some-user/some-path/some-app
 # - GitHub Actions directory: /home/runner/work/some-app/some-app
@@ -73,13 +78,18 @@ deps:
 	npm install -g bootprint bootprint-openapi gh-pages mocha
 
 # Initialise OpenAPI specification from either a local file path or a remote URL
-# This target requires SPEC_URI parameter to be supplied by user
+# This target requires the following parameters to be supplied by user
+# - SPEC_URI parameter
+# - CONTACT_NAME parameter
+# - CONTACT_ parameter
+# - CONTACT_NAME parameter
 init-spec: stage
 	if test $(findstring https, $(SPEC_URI)); then \
 	  curl $(SPEC_URI) --output $(LOCAL_SPEC_PATH); \
 	else \
 	  cp $(SPEC_URI) $(LOCAL_SPEC_PATH); \
 	fi
+	yq -i '.info.contact.name = "$(CONTACT_NAME)" | .info.contact.url = "$(CONTACT_URL)" | .info.contact.email = "$(CONTACT_EMAIL)"' "$(LOCAL_SPEC_PATH)"
 
 # Initiailise empty configuration file for all languages
 init-langs-config:
