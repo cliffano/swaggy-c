@@ -2,10 +2,10 @@
   "tagFormat": "v{version}",
   "resources": [
     {
-      "path": "src/Makefile",
+      "path": "src/Makefile-swaggy-c",
       "type": "makefile",
       "params": {
-        "variable": "swaggy_c_version"
+        "variable": "SWAGGY_C_VERSION"
       }
     },
     {
