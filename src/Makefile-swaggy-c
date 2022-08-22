@@ -95,7 +95,7 @@ init-spec: stage
 init-langs-config:
 	for lang in ${LANGS_ALL} ; do \
 	  mkdir -p clients/$$lang/; \
-	  cat "{}" > clients/$$lang/conf.json; \
+		echo "{}" > clients/$$lang/conf.json; \
 	done
 
 ################################################################

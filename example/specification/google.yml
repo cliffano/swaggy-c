@@ -1,0 +1,32 @@
+---
+openapi: 3.0.0
+info:
+  version: 0.0.1-pre.0
+  title: swaggy-c-example
+  description: Example OpenAPI specification for Swaggy C using Google Search
+  license:
+    name: MIT
+  contact:
+    name: Cliffano Subagio
+    url: http://blog.cliffano.com
+    email: blah@cliffano.com
+servers:
+  - url: https://google.com
+paths:
+  /search:
+    get:
+      summary: Search with a query
+      operationId: search
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search HTML response
+          content:
+            text/plain:
+              schema:
+                type: string
