@@ -30,7 +30,7 @@ LOCAL_SPEC_PATH = stage/specification.yml
 #   github_actions: /home/runner/work/someapp/someapp
 #   local: /home/someuser/someapp
 
-# SPEC_URI is the location where the OpenAPI specification is located, for example:
+# SPEC_URI is the file path or URL where the OpenAPI specification is located, for example:
 # - local file path: spec/some-app.yaml
 # - remote URL: https://some-app.com/some-app.yaml
 SPEC_URI=$(shell yq .spec_uri swaggy-c.yml)
@@ -104,8 +104,8 @@ init-langs-config:
 # Alias for generate-all target
 generate: generate-all
 
-# Generate API clients for all languages, this is separate from generate-primary target due to
-# the possibility of different command arguments
+# Generate API clients for all languages, this is separate from generate-primary target in order to
+# reduce the build time when processing primary languages
 # This target requires APP_BASE_DIR parameter to be supplied by user
 generate-all:
 	for lang in ${LANGS_ALL} ; do \
