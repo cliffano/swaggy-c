@@ -4,7 +4,7 @@
 ################################################################
 
 # The version of Swaggy C
-SWAGGY_C_VERSION = 0.9.0-pre.0
+SWAGGY_C_VERSION = 1.0.0
 
 # The version of OpenAPI Generator (https://openapi-generator.tech/) used for generating the API clients
 OPENAPI_GENERATOR_VERSION = 6.0.1
