@@ -1,7 +1,7 @@
 ci: lint test
 
 lint:
-	checkmake src/Makefile-swaggy-c Makefile
+	checkmake src/Makefile-swaggy-c
 
 test:
 	echo "todo"
