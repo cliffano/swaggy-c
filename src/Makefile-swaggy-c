@@ -98,6 +98,14 @@ init-langs-config:
 		echo "{}" > clients/$$lang/conf.json; \
 	done
 
+# Update Makefile to the latest version on origin's main branch
+update-to-latest:
+	curl https://raw.githubusercontent.com/cliffano/swaggy-c/main/src/Makefile-swaggy-c -o Makefile
+
+# Update Makefile to the version defined in TARGET_SWAGGY_C_VERSION parameter
+update-to-version:
+	curl https://raw.githubusercontent.com/cliffano/swaggy-c/v$(TARGET_SWAGGY_C_VERSION)/Makefile -o Makefile
+
 ################################################################
 # API clients generate targets
 

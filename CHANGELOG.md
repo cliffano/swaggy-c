@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add update-to-latest and update-to-version targets
+
 ### Changed
 - Modify clean target to also clean up stage/ directory
 

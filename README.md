@@ -48,6 +48,8 @@ The following targets are available:
 | deps | Retrieve the OpenAPI Generator Docker image and npm modules |
 | init-spec | Initialise OpenAPI specification from either a local file path or a remote URL |
 | init-langs-config | Initiailise empty configuration file for all languages |
+| update-to-latest | Update Makefile to the latest version on origin's main branch |
+| update-to-version | Update Makefile to the version defined in TARGET_SWAGGY_C_VERSION parameter |
 | generate | Alias for generate-all target |
 | generate-all | Generate API clients for all languages, this is separate from generate-primary target in order to reduce the build time when processing primary languages |
 | generate-primary | Generate API clients for primary languages only |
