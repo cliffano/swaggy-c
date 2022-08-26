@@ -70,7 +70,7 @@ stage:
 
 # Remove all generated API clients code
 clean:
-	rm -rf clients/*/generated
+	rm -rf stage/ clients/*/generated
 
 # Retrieve the OpenAPI Generator Docker image and npm modules
 deps:

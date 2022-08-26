@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Modify clean target to also clean up stage/ directory
+
 ## 1.0.0 - 2022-08-22
 ### Changed
 - Switch implementation to Makefile
