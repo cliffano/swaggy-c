@@ -8,7 +8,7 @@ lint:
 
 test:
 	cd example && \
-	  make -f ../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate
+	  make -f ../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate update-to-latest
 
 release-major:
 	rtk release --release-increment-type major
