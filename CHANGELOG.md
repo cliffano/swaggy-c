@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Modify clean target to also clean up stage/ directory
+- Upgrade OpenAPI Generator to 6.2.1
 
 ## 1.0.0 - 2022-08-22
 ### Changed
