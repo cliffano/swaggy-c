@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Re-add python language to co-exist with python-nextgen
+
+### Changed
+- Replace python with python-nextgen as primary language
+- Replace python build targets with python-nextgen
+
 ## 2.0.0 - 2023-03-03
 ### Added
 - Add python-nextgen language
