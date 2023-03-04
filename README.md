@@ -61,6 +61,14 @@ The following targets are available:
 | doc-version | Generate API documentation locally as the application's version |
 | doc-publish | Publish documentation via GitHub Pages |
 
+Upgrade Guide
+-------------
+
+To 2.x.x:
+
+* Copy clients/python/conf.json to clients/python-nextgen/conf.json
+* Rename all references of python to python-nextgen in GitHub Actions assets
+
 Colophon
 --------
 
