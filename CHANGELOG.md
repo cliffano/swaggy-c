@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade OpenAPI Generator to 6.6.0
+
 ## 2.1.0 - 2023-03-04
 ### Added
 - Re-add python language to co-exist with python-nextgen
