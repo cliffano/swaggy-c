@@ -32,6 +32,8 @@ Create Swaggy C configuration file called `swaggy-c.yml` with contains the follo
 | contact.name | Contact name to be amended to the OpenAPI specification | `John Citizen` |
 | contact.url | Contact URL to be amended to the OpenAPI specification | `https://some-app.com` |
 | contact.email | Contact email to be amended to the OpenAPI specification | `johnc@some-app.com` |
+| scm.git_user | Git user/org name to be amended to the generated  OpenAPI Generator configuration | `johncitizen` |
+| scm.git_repo | Git repo name to be amended to the generated OpenAPI Generator configuration | `some-app` |
 | base_dir.github_actions | Absolute path where the application base directory is located within GitHub Actions runner | `/home/runner/work/some-app/some-app` |
 | base_dir.local | Absolute path where the application base directory is located within your local environment | `/Users/some-user/some-path/some-app` |
 

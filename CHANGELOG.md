@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add scm.git_user and scm.git_repo configuration properties
+
 ### Changed
 - Upgrade OpenAPI Generator to 6.6.0
 

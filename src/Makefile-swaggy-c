@@ -43,6 +43,10 @@ CONTACT_NAME ?= $(shell yq .contact.name swaggy-c.yml)
 CONTACT_URL ?= $(shell yq .contact.url swaggy-c.yml)
 CONTACT_EMAIL ?= $(shell yq .contact.email swaggy-c.yml)
 
+# SCM details to be amended to the OpenAPI Generator configuration .git_* properties
+SCM_GIT_USER ?= $(shell yq .scm.git_user swaggy-c.yml)
+SCM_GIT_REPO ?= $(shell yq .scm.git_repo swaggy-c.yml)
+
 # APP_BASE_DIR is the absolute path where the application base directory is located, for example:
 # - MacOS user workspace directory: /Users/some-user/some-path/some-app
 # - GitHub Actions directory: /home/runner/work/some-app/some-app
@@ -91,11 +95,11 @@ init-spec: stage
 	fi
 	yq -i '.info.contact.name = "$(CONTACT_NAME)" | .info.contact.url = "$(CONTACT_URL)" | .info.contact.email = "$(CONTACT_EMAIL)"' "$(LOCAL_SPEC_PATH)"
 
-# Initiailise empty configuration file for all languages
+# Initialise basic configuration file for all languages
 init-langs-config:
 	for lang in ${LANGS_ALL} ; do \
 	  mkdir -p clients/$$lang/; \
-		echo "{}" > clients/$$lang/conf.json; \
+		echo "{\n  \"gitUserId\": \"$(SCM_GIT_USER)\",\n  \"gitRepoId\": \"$(SCM_GIT_REPO)\"\n}" > clients/$$lang/conf.json; \
 	done
 
 # Update Makefile to the latest version on origin's main branch
