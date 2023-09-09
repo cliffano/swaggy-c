@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade OpenAPI Generator to 7.0.0
+
 ## 3.0.1 - 2023-09-09
 ### Fixed
 - Fix update-to-version target to retrieve correct Swaggy C Makefile
