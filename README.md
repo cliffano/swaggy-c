@@ -66,6 +66,10 @@ The following targets are available:
 Upgrade Guide
 -------------
 
+To 4.x.x:
+
+* Revert all references of python-nextgen to python
+
 To 2.x.x:
 
 * Copy clients/python/conf.json to clients/python-nextgen/conf.json
