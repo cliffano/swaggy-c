@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+- Fix update-to-version target to retrieve correct Swaggy C Makefile
+
 ## 3.0.0 - 2023-08-27
 ### Added
 - Add scm.git_user and scm.git_repo configuration properties

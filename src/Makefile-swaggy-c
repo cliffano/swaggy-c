@@ -108,7 +108,7 @@ update-to-latest:
 
 # Update Makefile to the version defined in TARGET_SWAGGY_C_VERSION parameter
 update-to-version:
-	curl https://raw.githubusercontent.com/cliffano/swaggy-c/v$(TARGET_SWAGGY_C_VERSION)/Makefile -o Makefile
+	curl https://raw.githubusercontent.com/cliffano/swaggy-c/v$(TARGET_SWAGGY_C_VERSION)/src/Makefile-swaggy-c -o Makefile
 
 ################################################################
 # API clients generate targets
