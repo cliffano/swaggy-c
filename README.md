@@ -49,7 +49,7 @@ The following targets are available:
 | clean | Remove all generated API clients code |
 | deps | Retrieve the OpenAPI Generator Docker image and npm modules |
 | init-spec | Initialise OpenAPI specification from either a local file path or a remote URL |
-| init-langs-config | Initiailise empty configuration file for all languages |
+| init-langs-config | Initialise empty configuration file for all languages |
 | update-to-latest | Update Makefile to the latest version on origin's main branch |
 | update-to-version | Update Makefile to the version defined in TARGET_SWAGGY_C_VERSION parameter |
 | generate | Alias for generate-all target |
