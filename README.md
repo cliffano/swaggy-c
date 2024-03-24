@@ -78,9 +78,6 @@ To 2.x.x:
 Colophon
 --------
 
-Related Projects:
+Related Project:
 
-* [openapi-ipify](http://github.com/cliffano/openapi-ipify) - OpenAPI v3 specification and a set of generated API clients for [ipify](https://www.ipify.org/)
-* [pinterest-sdk](http://github.com/cliffano/pinterest-sdk) - A set of [Pinterest ](https://pinterest.com/) SDK in multiple languages generated from Open API specification
-* [pokeapi-clients](http://github.com/cliffano/pokeapi-clients) - A set of [PokéAPI](https://pokeapi.co/) clients in multiple languages generated from Open API specification
-* [swaggy-jenkins](http://github.com/cliffano/swaggy-jenkins) - A set of [Jenkins](https://www.jenkins.io/) API clients in multiple languages generated from Swagger / Open API specification
+* [OpenAPI Clients Factory](https://github.com/oapicf) - A project to produce OpenAPI-based clients using OpenAPI Generator
