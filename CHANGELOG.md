@@ -33,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 3.0.0 - 2023-08-27
 ### Added
-- Add scm.git_user and scm.git_repo configuration properties
+- Add scm.git_user and scm.git_repo configuration properties (credit: @dominicbarnes, via https://github.com/oapicf/pokeapi-clients/pull/2)
 
 ### Changed
 - Upgrade OpenAPI Generator to 6.6.0
