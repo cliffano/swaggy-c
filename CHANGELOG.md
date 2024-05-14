@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add pytest to build-python and test-python
+
 ### Changed
 - Upgrade OpenAPI Generator to 7.5.0
 
