@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade OpenAPI Generator to 7.5.0
+
 ## 4.3.0 - 2024-03-12
 ### Changed
 - Update OAG languages based on OAG 7.4.0
