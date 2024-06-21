@@ -11,3 +11,4 @@ scm:
 base_dir:
   github_actions: /home/runner/work/swaggy-c/swaggy-c/example/
   local: /Users/cliffano/dev/workspace-studio/swaggy-c/example/
+  custom: /some/base/dir/example

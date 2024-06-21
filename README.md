@@ -34,8 +34,9 @@ Create Swaggy C configuration file called `swaggy-c.yml` with contains the follo
 | contact.email | Contact email to be amended to the OpenAPI specification | `johnc@some-app.com` |
 | scm.git_user | Git user/org name to be amended to the generated  OpenAPI Generator configuration | `johncitizen` |
 | scm.git_repo | Git repo name to be amended to the generated OpenAPI Generator configuration | `some-app` |
-| base_dir.github_actions | Absolute path where the application base directory is located within GitHub Actions runner | `/home/runner/work/some-app/some-app` |
-| base_dir.local | Absolute path where the application base directory is located within your local environment | `/Users/some-user/some-path/some-app` |
+| base_dir.github_actions | Absolute path where the application base directory is located within GitHub Actions runner, use this by setting GITHUB_ACTIONS environment variable | `/home/runner/work/some-app/some-app` |
+| base_dir.local | Absolute path where the application base directory is located within your local environment, use this when no environment variable specified | `/Users/some-user/some-path/some-app` |
+| base_dir.custom | Absolute path where the application base directory is any custom directory, use this by setting CUSTOM environment variable | `/Users/some-user/some-path/some-app` |
 
 Usage
 -----

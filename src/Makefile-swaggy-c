@@ -48,12 +48,20 @@ SCM_GIT_USER ?= $(shell yq .scm.git_user swaggy-c.yml)
 SCM_GIT_REPO ?= $(shell yq .scm.git_repo swaggy-c.yml)
 
 # APP_BASE_DIR is the absolute path where the application base directory is located, for example:
-# - MacOS user workspace directory: /Users/some-user/some-path/some-app
-# - GitHub Actions directory: /home/runner/work/some-app/some-app
+# - MacOS user workspace as a local directory: /Users/some-user/some-path/some-app
+#   This is used when no environment variable is specified.
+# - GitHub Actions workspace directory: /home/runner/work/some-app/some-app
+#   This is used when GITHUB_ACTIONS environment variable is specified.
+# - Custom directory to overwrite the other directories: /any/path/to/some-app
+#   This is used when CUSTOM environment variable is specified.
 ifdef GITHUB_ACTIONS
 APP_BASE_DIR=$(shell yq .base_dir.github_actions swaggy-c.yml)
 else
-APP_BASE_DIR=$(shell yq .base_dir.local swaggy-c.yml)
+  ifdef CUSTOM
+	APP_BASE_DIR=$(shell yq .base_dir.custom swaggy-c.yml)
+	else
+  APP_BASE_DIR=$(shell yq .base_dir.local swaggy-c.yml)
+	endif
 endif
 
 $(info ################################################################)
