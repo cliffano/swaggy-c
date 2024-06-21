@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add support to customise the application base directory
 
+### Changed
+- Upgrade OpenAPI Generator to 7.6.0
+
 ## 4.4.0 - 2024-05-14
 ### Added
 - Add pytest to build-python and test-python
