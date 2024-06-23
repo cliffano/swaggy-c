@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add validator package installation to build-javascript
+- Add validators package installation to build-python
+
 ## 4.5.0 - 2024-06-21
 ### Added
 - Add support to customise the application base directory

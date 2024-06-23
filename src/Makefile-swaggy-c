@@ -160,6 +160,7 @@ generate-primary:
 
 build-javascript:
 	npm install -g babel-cli
+	npm install validator
 	cd clients/javascript/generated/ && \
 	  npm install && \
 	  npm link && \
@@ -169,7 +170,7 @@ build-javascript:
 
 build-python:
 	sudo apt-get install -y python-setuptools
-	pip install twine wheel pytest
+	pip install twine wheel pytest validators
 	cd clients/python/generated/ && \
 	  pip install -r requirements.txt && \
 	  python3 setup.py sdist bdist_wheel && \
