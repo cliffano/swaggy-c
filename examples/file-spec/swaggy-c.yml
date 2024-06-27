@@ -9,6 +9,6 @@ scm:
   git_user: cliffano
   git_repo: swaggy-c
 base_dir:
-  github_actions: /home/runner/work/swaggy-c/swaggy-c/example/
-  local: /Users/cliffano/dev/workspace-studio/swaggy-c/example/
+  github_actions: /home/runner/work/swaggy-c/swaggy-c/examples/file-spec/
+  local: /Users/cliffano/dev/workspace-studio/swaggy-c/examples/file-spec/
   custom: /some/base/dir/example

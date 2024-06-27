@@ -1,7 +1,7 @@
 ci: clean lint test
 
 clean:
-	rm -rf example/clients/ rm -rf example/stage/
+	rm -rf examples/*/clients/ examples/*/stage/
 
 lint:
 	checkmake src/Makefile-swaggy-c

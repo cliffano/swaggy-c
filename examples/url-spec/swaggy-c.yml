@@ -1,0 +1,14 @@
+---
+spec_uri: https://raw.githubusercontent.com/cliffano/swaggy-c/main/examples/file-spec/specification/google.yml
+version: 0.0.1-pre.0
+contact:
+  name: Cliffano Subagio
+  url: https://github.com/cliffano/swaggy-c
+  email: blah@cliffano.com
+scm:
+  git_user: cliffano
+  git_repo: swaggy-c
+base_dir:
+  github_actions: /home/runner/work/swaggy-c/swaggy-c/examples/url-spec/
+  local: /Users/cliffano/dev/workspace-studio/swaggy-c/examples/url-spec/
+  custom: /some/base/dir/example
