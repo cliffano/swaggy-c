@@ -7,7 +7,9 @@ lint:
 	checkmake src/Makefile-swaggy-c
 
 test:
-	cd example && \
+	cd examples/file-spec/ && \
+	  make -f ../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate update-to-latest
+	cd examples/url-spec/ && \
 	  make -f ../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate update-to-latest
 
 release-major:
