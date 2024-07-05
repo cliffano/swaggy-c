@@ -54,11 +54,11 @@ SCM_GIT_REPO ?= $(shell yq .scm.git_repo swaggy-c.yml)
 #   This is used when GITHUB_ACTIONS environment variable is specified.
 # - Custom directory to overwrite the other directories: /any/path/to/some-app
 #   This is used when CUSTOM environment variable is specified.
-ifdef GITHUB_ACTIONS
-APP_BASE_DIR=$(shell yq .base_dir.github_actions swaggy-c.yml)
+ifdef CUSTOM
+APP_BASE_DIR=$(shell yq .base_dir.custom swaggy-c.yml)
 else
-  ifdef CUSTOM
-	APP_BASE_DIR=$(shell yq .base_dir.custom swaggy-c.yml)
+  ifdef GITHUB_ACTIONS
+	APP_BASE_DIR=$(shell yq .base_dir.github_actions swaggy-c.yml)
 	else
   APP_BASE_DIR=$(shell yq .base_dir.local swaggy-c.yml)
 	endif
