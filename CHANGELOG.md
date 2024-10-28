@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add libyaml-dev to build-ruby
+
 ### Changed
-- Temp remove sudo for python-setuptools installation
+- Temp remove sudo for python-setuptools installation from build-python
 
 ## 4.7.0 - 2024-07-05
 ### Added
