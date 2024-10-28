@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Temp remove sudo for python-setuptools installation
+
 ## 4.7.0 - 2024-07-05
 ### Added
 - Add url-spec example

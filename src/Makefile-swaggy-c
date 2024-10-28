@@ -169,7 +169,7 @@ build-javascript:
 	  npm link ../../clients/javascript/generated/
 
 build-python:
-	sudo apt-get install -y python-setuptools
+	apt-get install -y python-setuptools
 	pip install twine wheel pytest validators
 	cd clients/python/generated/ && \
 	  pip install -r requirements.txt && \
