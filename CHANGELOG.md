@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add libyaml-dev to build-ruby
 
+### Changed
+- Move mocha and validator installation to test-javascript
+
 ### Fixed
 - Fix base dir setting when running CI workflow
 

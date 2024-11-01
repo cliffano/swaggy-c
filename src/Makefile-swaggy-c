@@ -159,8 +159,7 @@ generate-primary:
 # API clients building targets for primary languages
 
 build-javascript:
-	npm install -g babel-cli mocha
-	npm install validator
+	npm install -g babel-cli
 	cd clients/javascript/generated/ && \
 	  npm install && \
 	  npm link && \
@@ -189,6 +188,8 @@ build-ruby:
 # API clients testing targets for primary languages
 
 test-javascript: build-javascript
+	npm install -g mocha
+	npm install validator
 	cd clients/javascript/generated/ && \
 	  npm run test
 	mocha --timeout 5000 test/javascript/
