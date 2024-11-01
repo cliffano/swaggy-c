@@ -11,9 +11,10 @@ jobs:
           file-path: '/tmp/.env'
         env:
           GITHUB_ACTIONS: ${{ env.GITHUB_ACTIONS }}
-      - uses: cliffano/command-docker-action@v1.1.0
+          PATH: ${{ env.PATH }}
+      - uses: cliffano/command-docker-action@v1.3.0
         with:
           command: 'make ci'
-          image: cliffano/studio:2.4.1
+          image: cliffano/studio:2.5.0
           shell: bash
-          env_file: '/tmp/.env'
+          extra_path: /usr/local/go/bin:/usr/local/maven/bin:/usr/local/node/bin:/usr/local/openjdk-jdk/bin:/root/.cargo/bin:/root/go/bin
