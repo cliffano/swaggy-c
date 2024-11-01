@@ -11,7 +11,7 @@ jobs:
           file-path: '/tmp/.env'
         env:
           GITHUB_ACTIONS: ${{ env.GITHUB_ACTIONS }}
-      - uses: cliffano/command-docker-action@v1.0.0
+      - uses: cliffano/command-docker-action@v1.1.0
         with:
           command: 'make ci'
           image: cliffano/studio
