@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Move mocha and validator installation to test-javascript
+- Upgrade OpenAPI Generator to 7.9.0
 
 ### Fixed
 - Fix base dir setting when running CI workflow
