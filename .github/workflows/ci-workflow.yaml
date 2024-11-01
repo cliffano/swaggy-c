@@ -6,8 +6,14 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - uses: iamsauravsharma/create-dotenv@v2.0.1
+        with:
+          file-path: '/tmp/.env'
+        env:
+          GITHUB_ACTIONS: ${{ env.GITHUB_ACTIONS }}
       - uses: cliffano/command-docker-action@v1.0.0
         with:
           command: 'make ci'
           image: cliffano/studio
           shell: bash
+          env_file: '/tmp/.env'

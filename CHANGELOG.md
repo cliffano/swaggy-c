@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add libyaml-dev to build-ruby
 
+### Fixed
+- Fix base dir setting when running CI workflow
+
 ### Changed
 - Temp remove sudo for python-setuptools installation from build-python
 - Move mocha instalation from deps target to build-javascript target
