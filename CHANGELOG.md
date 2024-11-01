@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Temp remove sudo for python-setuptools installation from build-python
+- Move mocha instalation from deps target to build-javascript target
 
 ## 4.7.0 - 2024-07-05
 ### Added
