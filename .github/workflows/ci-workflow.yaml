@@ -14,6 +14,6 @@ jobs:
       - uses: cliffano/command-docker-action@v1.1.0
         with:
           command: 'make ci'
-          image: cliffano/studio
+          image: cliffano/studio:2.4.1
           shell: bash
           env_file: '/tmp/.env'
