@@ -11,15 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add libyaml-dev to build-ruby
 
 ### Changed
-- Move mocha and validator installation to test-javascript
+- Move mocha instalation from deps target to test-javascript target
+- Move validator installation from build-javascript to test-javascript
 - Upgrade OpenAPI Generator to 7.9.0
+
+### Removed
+- Remove sudo for python-setuptools installation from build-python
 
 ### Fixed
 - Fix base dir setting when running CI workflow
-
-### Changed
-- Temp remove sudo for python-setuptools installation from build-python
-- Move mocha instalation from deps target to build-javascript target
 
 ## 4.7.0 - 2024-07-05
 ### Added
