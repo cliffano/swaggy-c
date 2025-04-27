@@ -8,9 +8,9 @@ lint:
 
 test:
 	cd examples/file-spec/ && \
-	  make -f ../../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate build-javascript build-python build-ruby update-to-latest
+	  make -f ../../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate update-to-latest
 	cd examples/url-spec/ && \
-	  make -f ../../src/Makefile-swaggy-c clean deps init-spec init-langs-config build-javascript build-python build-ruby generate update-to-latest
+	  make -f ../../src/Makefile-swaggy-c clean deps init-spec init-langs-config generate update-to-latest
 
 release-major:
 	rtk release --release-increment-type major
