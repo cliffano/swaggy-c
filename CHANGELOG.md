@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add build-javascript build-python build-ruby targets as part of testing
+
 ### Fixed
 - Fix missing setuptools now that apt package no longer exists
 
