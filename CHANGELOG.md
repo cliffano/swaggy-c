@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+- Fix missing setuptools now that apt package no longer exists
+
 ## 4.9.1 - 2025-04-27
 ### Fixed
 - Fix build-python with Python 3.12 support
