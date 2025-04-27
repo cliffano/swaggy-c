@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+- Fix build-python with Python 3.12 support
+
 ## 4.9.0 - 2025-04-27
 ### Changed
 - Upgrade OpenAPI Generator to 7.12.0

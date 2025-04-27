@@ -167,13 +167,17 @@ build-javascript:
 	cd test/javascript/ && \
 	  npm link ../../clients/javascript/generated/
 
+define python_venv
+	. .venv/bin/activate && $(1)
+endef
+
 build-python:
-	apt-get install -y python-setuptools
-	pip install twine wheel pytest validators
 	cd clients/python/generated/ && \
-	  pip install -r requirements.txt && \
-	  python3 setup.py sdist bdist_wheel && \
-	  python3 setup.py install
+	  python3 -m venv .venv && \
+	  $(call python_venv,pip install twine wheel pytest validators) && \
+	  $(call python_venv,pip install -r requirements.txt) && \
+	  $(call python_venv,python3 setup.py sdist bdist_wheel) && \
+	  $(call python_venv,python3 setup.py install)
 
 build-ruby:
 	apt-get install libyaml-dev
