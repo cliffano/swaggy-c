@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade OpenAPI Generator to 7.12.0
+
 ## 4.8.0 - 2024-11-02
 ### Added
 - Add libyaml-dev to build-ruby
