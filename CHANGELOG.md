@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Run Python commands with venv
+
+### Removed
+- Remove Python .egg file from package creation/installation
+
 ## 4.9.2 - 2025-04-27
 ### Fixed
 - Fix missing setuptools now that apt package no longer exists
