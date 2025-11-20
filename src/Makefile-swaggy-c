@@ -80,6 +80,9 @@ $(info - Application base directory: ${APP_BASE_DIR})
 # CI target to be executed by CI/CD tool
 ci: clean deps init-spec generate build-javascript build-python build-ruby test-javascript test-python test-ruby doc
 
+# All target as an alias for CI target
+all: ci
+
 # Ensure stage directory exists
 stage:
 	mkdir -p stage
@@ -190,6 +193,9 @@ build-ruby:
 
 ################################################################
 # API clients testing targets for primary languages
+
+# Test target is a convenience target to run tests for all primary languages
+test: test-javascript test-python test-ruby
 
 test-javascript: build-javascript
 	npm install -g mocha

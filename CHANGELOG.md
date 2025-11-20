@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add ci and test targets for checkmake
+
 ### Changed
 - Update test-javascript to link generated client
 - Upgrade OpenAPI Generator to 7.17.0
