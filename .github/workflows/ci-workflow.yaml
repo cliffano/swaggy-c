@@ -3,18 +3,18 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: iamsauravsharma/create-dotenv@v2.0.1
         with:
           file-path: '/tmp/.env'
         env:
           GITHUB_ACTIONS: ${{ env.GITHUB_ACTIONS }}
-      - uses: cliffano/command-docker-action@v1.3.0
+      - uses: cliffano/command-docker-action@v1.4.0
         with:
           command: 'make ci'
-          image: cliffano/studio:2.5.0
+          image: cliffano/studio:2.16.0
           shell: bash
           extra_path: /usr/local/go/bin:/usr/local/maven/bin:/usr/local/node/bin:/usr/local/openjdk-jdk/bin:/root/.cargo/bin:/root/go/bin
           env_file: '/tmp/.env'
