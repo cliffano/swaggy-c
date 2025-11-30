@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add test-ruby implementation
+
+### Fixed
+- Fix Ruby gem install to ensure there's no previous gem
+
 ## 4.11.0 - 2025-11-20
 ### Added
 - Add ci and test targets for checkmake
