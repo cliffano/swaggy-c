@@ -50,15 +50,15 @@ The following targets are available:
 | clean | Remove all generated API clients code |
 | deps | Retrieve the OpenAPI Generator Docker image and npm modules |
 | init-spec | Initialise OpenAPI specification from either a local file path or a remote URL |
-| init-langs-config | Initialise empty configuration file for all languages |
+| init-generators-config | Initialise empty configuration file for all generators |
 | update-to-latest | Update Makefile to the latest version on origin's main branch |
 | update-to-version | Update Makefile to the version defined in TARGET_SWAGGY_C_VERSION parameter |
 | generate | Alias for generate-all target |
-| generate-all | Generate API clients for all languages, this is separate from generate-primary target in order to reduce the build time when processing primary languages |
-| generate-primary | Generate API clients for primary languages only |
-| build-<lang> | API clients building targets for primary languages |
-| test-<lang> | API clients testing targets for primary languages |
-| publish-<lang> | API clients package publishing targets for primary languages |
+| generate-all | Generate API clients for all generators, this is separate from generate-primary target in order to reduce the build time when processing primary generators |
+| generate-primary | Generate API clients for primary generators only |
+| build-<generator> | API clients building targets for primary generators |
+| test-<generator> | API clients testing targets for primary generators |
+| publish-<generator> | API clients package publishing targets for primary generators |
 | doc | Alias for doc-latest target |
 | doc-latest | Generate API documentation locally as the latest version |
 | doc-version | Generate API documentation locally as the application's version |

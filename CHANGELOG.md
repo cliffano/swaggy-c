@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
-- Add list-langs target to show the generators supported by OAG
+- Add list-generators target to show the generators supported by OAG
 
 ### Changed
-- Modify init-langs-config to skip pre-existing generator
+- Modify init-generators-config to skip pre-existing generator
 - Upgrade OpenAPI Generator to 7.18.0
+- Rename OAG language concept with generator
 
 ## 4.12.0 - 2025-11-30
 ### Added
@@ -92,7 +93,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 4.3.0 - 2024-03-12
 ### Changed
-- Update OAG languages based on OAG 7.4.0
+- Update OAG generators based on OAG 7.4.0
 
 ## 4.2.0 - 2024-03-12
 ### Changed
@@ -123,21 +124,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 2.1.0 - 2023-03-04
 ### Added
-- Re-add python language to co-exist with python-nextgen
+- Re-add python generator to co-exist with python-nextgen
 
 ### Changed
-- Replace python with python-nextgen as primary language
+- Replace python with python-nextgen as primary generator
 - Replace python build targets with python-nextgen
 
 ## 2.0.0 - 2023-03-03
 ### Added
-- Add python-nextgen language
+- Add python-nextgen generator
 
 ### Changed
 - Upgrade OpenAPI Generator to 6.3.0
 
 ### Removed
-- Remove python language
+- Remove python generator
 
 ## 1.1.0 - 2022-11-18
 ### Added
@@ -155,9 +156,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.1.0 - 2017-08-02
 ### Added
-- Add clean commands for all languages
-- Add client generation for all languages supported by Swagger CodeGen as of 20170601
-- Handle language containing dash
+- Add clean commands for all generators
+- Add client generation for all generators supported by Swagger CodeGen as of 20170601
+- Handle generator containing dash
 
 ### Fixed
 - Fix command format params merging
