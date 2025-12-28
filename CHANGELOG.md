@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add list-langs target to show the generators supported by OAG
+
+### Changed
+- Modify init-langs-config to skip pre-existing generator
+
 ## 4.12.0 - 2025-11-30
 ### Added
 - Add test-ruby implementation
