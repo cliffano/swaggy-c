@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Modify init-langs-config to skip pre-existing generator
+- Upgrade OpenAPI Generator to 7.18.0
 
 ## 4.12.0 - 2025-11-30
 ### Added
